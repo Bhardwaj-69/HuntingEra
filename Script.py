@@ -107,7 +107,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
- <b>✯ Maintained by : <a href={}>Owner</a></b>
+ <b>✯ Maintained by : <a href={}>https://t.me/Movie_Pirates_x</a></b>
   
  <b>✯ Join here : <a href={}>Update Channel</a></b> 
   
@@ -233,7 +233,7 @@ Nᴀᴍᴇ - {}"""
     SELECT = """sᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴘʀᴇғᴇʀʀᴇᴅ ʟᴀɴɢᴜᴀɢᴇ, ǫᴜᴀʟɪᴛʏ, sᴇᴀsᴏɴ ᴀɴᴅ ᴇᴘɪsᴏᴅᴇ"""
 
     SINFO = """
-🫣 For Movie Join First Then Click On Try Again Button 😅"""
+🎁 For Movie Join First Then Click On Try Again Button 😊"""
 
     NORSLTS = """ 
 ★ #𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀 ★
