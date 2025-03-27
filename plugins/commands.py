@@ -1457,8 +1457,19 @@ async def give_premium_cmd_handler(client, message):
             await message.reply_text("Premium access added to the user.")            
             await client.send_message(
                 chat_id=user_id,
-                text=f"<b>ᴘʀᴇᴍɪᴜᴍ ᴀᴅᴅᴇᴅ ᴛᴏ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ ꜰᴏʀ {time} ᴇɴᴊᴏʏ 😀\n</b>",                
-            )
+                text=(
+                    "🎬✨ <b>Welcome to the Premium Club!</b> ✨🎬\n\n"
+                    "🎟️ You now have <b>PREMIUM ACCESS</b> for <code>{time}</code>! 🍿🔥\n"
+                    "Enjoy **ad-free, high-quality movies** and early access to exclusive content! 🚀\n\n"
+                    "🎥 **What you get:**\n"
+                    "✅ Unlimited HD Movie Downloads - Requests 🏴‍☠️\n"
+                    "✅ Faster Access to New Releases\n"
+                    "✅ No Waiting Time – Instant Access!\n\n"
+                    "🍿 <i>Happy Watching!</i> 🍿"
+                )
+           )
+
+            
         else:
             await message.reply_text("Invalid time format. Please use '1day for days', '1hour for hours', or '1min for minutes', or '1month for months' or '1year for year'")
     else:
