@@ -1466,6 +1466,7 @@ async def give_premium_cmd_handler(client, message):
                     "✅ Faster Access to New Releases\n"
                     "✅ No Waiting Time – Instant Access!\n\n"
                     "🍿 <i>Happy Watching!</i> 🍿"
+                    "Love From 💞 <b>@Real_Pirates</b>" 🏴‍☠️
                 )
            )
 
