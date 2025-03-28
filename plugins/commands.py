@@ -581,7 +581,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(button)
             )
             btn = [[
-                InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
+                InlineKeyboardButton("✅ 𝙶𝚎𝚝 𝙵𝚒𝚕𝚎 𝙰𝚐𝚊𝚒𝚗 😉", callback_data=f'delfile#{file_id}')
             ]]
             k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>",quote=True)
             await asyncio.sleep(600)
@@ -640,12 +640,12 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(button)
     )
     btn = [[
-        InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
+        InlineKeyboardButton("✅ 𝙶𝚎𝚝 𝙵𝚒𝚕𝚎 𝙰𝚐𝚊𝚒𝚗 😉", callback_data=f'delfile#{file_id}')
     ]]
     k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>",quote=True)
     await asyncio.sleep(600)
     await msg.delete()
-    await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\n✅ 𝙲𝚕𝚒𝚌𝚔 𝚃𝚘 𝙶𝚎𝚝 𝙵𝚒𝚕𝚎 𝙰𝚐𝚊𝚒𝚗 😉</b>",reply_markup=InlineKeyboardMarkup(btn))
+    await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
     return   
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
