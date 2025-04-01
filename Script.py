@@ -234,9 +234,8 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<blockquote><b>⎈<a href= https://t.me/Real_Piratex> {filename}</a></b></blockquote>
-<pre>➩ <b>𝐅𝐢𝐥𝐞 𝐒𝐢𝐳𝐞 📥 ➺ {filesize}</b></pre>
-<b>𓊝  Provided by ⭛</b>
+    CAPTION = """<blockquote><b>⎈<a href= https://t.me/Real_Piratex> {filename}</a></b></blockquote>\n➩ <b>𝐅𝐢𝐥𝐞 𝐒𝐢𝐳𝐞 📥 ➺ {filesize}</b>
+<b>𓊝  Provided by ⭛</b>\n
 <blockquote><b>➜ <a href=https://t.me/Real_Pirates> ⎈ @Real_Pirates 🏴‍☠</a></b></blockquote>"""
 
     IMDB_TEMPLATE_TXT = """
