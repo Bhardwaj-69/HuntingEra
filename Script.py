@@ -234,9 +234,10 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<blockquote><b>⎈<a href= https://t.me/Real_Piratex> {filename}</a></b></blockquote>\n➩ <b>𝐅𝐢𝐥𝐞 𝐒𝐢𝐳𝐞 📥 ➺ {filesize}</b>
-<b>𓊝  Provided by ⭛</b>\n
-<blockquote><b>➜ <a href=https://t.me/Real_Pirates> ⎈ @Real_Pirates 🏴‍☠</a></b></blockquote>"""
+    CAPTION = """<b><blockquote>⎈ <a href= https://t.me/Real_Piratex> {file_name}</a><blockquote></b>
+➩ <b><pre>𝐅𝐢𝐥𝐞 𝐒𝐢𝐳𝐞 📥 ➺ {file_size}</pre></b>
+<b>𓊝  Provided by ⭛</b>
+<b><blockquote>➜ <a href=https://t.me/Real_Pirates> ⎈ @Real_Pirates 🏴‍☠</a></blockquote></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
