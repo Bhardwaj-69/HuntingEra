@@ -7,14 +7,14 @@ class script(object):
     START_TXT = """<b><blockquote>⚓︎ Ahoyy! {}, 
 As You Know I Am <a href=https://t.me/{}>{}</a></blockquote></b>
 
-<b>⚓ Let me guide you How to Find Movies or Series 💀
+<b>Let me guide you How to do Request 💀
 
 Just send me Movies or Series Name & Get Ready To Grab It. 🏴‍☠</b>
 ━━━━━━━━━━━━━━━━━━━
+
 Do You Want To Create Your Own <b>Movie Request Group</b>? 🌝
 <b><blockquote expandable>
 Simply Add Me in Your Group & Make Me Admin</b>.
-
 I Will Provide All Movies For Your Members. 😉</blockquote>
 ⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍"""
 
