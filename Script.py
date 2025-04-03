@@ -11,8 +11,8 @@ As You Know I Am <a href=https://t.me/{}>{}</a></blockquote></b>
 
 Just send me Movies or Series Name & Get Ready To Grab It. 🏴‍☠</b>
 ━━━━━━━━━━━━━━━━━━━
-Do You Want To Create Your Own <b>Movie Request Group</b>? 
-<b><blockquote expandable>🌝
+Do You Want To Create Your Own <b>Movie Request Group</b>? 🌝
+<b><blockquote expandable>
 Simply Add Me in Your Group & Make Me Admin</b>.
 
 I Will Provide All Movies For Your Members. 😉</blockquote>
@@ -192,7 +192,7 @@ Nᴀᴍᴇ - {}"""
 
     I_CUDNT = """My bad, matey! No Files Found For Your Request {} 🌝
 
-ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ <b>ɢᴏᴏɢʟᴇ </b>👈ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 😘
+ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ <a href=https://www.google.com/search?q={reqst_gle}><b>ɢᴏᴏɢʟᴇ</b></a>ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 😘
 
 <b><blockquote expandable>🌚 How to send request
 
@@ -205,8 +205,7 @@ Nᴀᴍᴇ - {}"""
 ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or From S03E10
 
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ send,in,dub,dubbed':(!:,./) </blockquote></b> 
-Your Request Will be added here soon
-  Join & Unmute🔔 ✅
+      Join & Unmute🔔 ✅
 🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰"""
 
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
