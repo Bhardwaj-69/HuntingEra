@@ -4,8 +4,7 @@
 
 
 class script(object):
-    START_TXT = """<b><blockquote>⚓︎ Ahoyy! {}, 
-As You Know I Am <a href=https://t.me/{}>{}</a></blockquote></b>
+    START_TXT = """<b><blockquote>⚓︎ Ahoyy! {},
 
 <b>Let me guide you How to do Request 💀
 
