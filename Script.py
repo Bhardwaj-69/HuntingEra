@@ -12,7 +12,7 @@ As You Know I Am <a href=https://t.me/{}>{}</a></blockquote></b>
 Just send me Movies or Series Name & Get Ready To Grab It. 🏴‍☠</b>
 ━━━━━━━━━━━━━━━━━━━
 
-Do You Want To Create Your Own <b>Movie Request Group</b>? 🌝
+<b>Do You Want Movies in Your Own Group</b>? 🌝
 <b><blockquote expandable>Simply Add Me in Your Group & Make Me Admin</b>.
 
 I Will Provide All Movies For Your Members. 😉</blockquote>
