@@ -13,8 +13,8 @@ Just send me Movies or Series Name & Get Ready To Grab It. 🏴‍☠</b>
 ━━━━━━━━━━━━━━━━━━━
 
 Do You Want To Create Your Own <b>Movie Request Group</b>? 🌝
-<b><blockquote expandable>
-Simply Add Me in Your Group & Make Me Admin</b>.
+<b><blockquote expandable>Simply Add Me in Your Group & Make Me Admin</b>.
+
 I Will Provide All Movies For Your Members. 😉</blockquote>
 ⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍"""
 
