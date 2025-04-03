@@ -190,7 +190,7 @@ Nᴀᴍᴇ - {}"""
     CUDNT_FND = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}
 ᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏꜰ ᴛʜᴇꜱᴇ?"""
 
-    I_CUDNT = """ Dear No Files Found For Your Request {} 🌝
+    I_CUDNT = """My bad, matey! No Files Found For Your Request {} 🌝
 
 ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ <b>ɢᴏᴏɢʟᴇ </b>👈ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 😘
 
@@ -204,7 +204,10 @@ Nᴀᴍᴇ - {}"""
 ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
 ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or From S03E10
 
-🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ send,in,dub,dubbed':(!:,./) </blockquote></b>"""
+🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ send,in,dub,dubbed':(!:,./) </blockquote></b> 
+Your Request Will be added here soon
+  Join & Unmute🔔 ✅
+🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰"""
 
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
 ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
