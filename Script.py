@@ -4,17 +4,19 @@
 
 
 class script(object):
-    START_TXT = """<b><blockquote>⚓︎ 𝚈𝚘 𝙷𝚘 ! {}, 
+    START_TXT = """<b><blockquote>⚓︎ Ahoyy! {}, 
 As You Know I Am <a href=https://t.me/{}>{}</a></blockquote></b>
 
 <b>⚓ Let me guide you How to Find Movies or Series 💀
+
 Just send me Movies or Series Name & Get Ready To Grab It. 🏴‍☠</b>
 ━━━━━━━━━━━━━━━━━━━
 Do You Want To Create Your Own <b>Movie Request Group</b>? 
-<b><blockquote expandable>🌝 It's Simple!.
+<b><blockquote expandable>🌝
 Simply Add Me in Your Group & Make Me Admin</b>.
+
 I Will Provide All Movies For Your Members. 😉</blockquote>
-⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍"""
+⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
