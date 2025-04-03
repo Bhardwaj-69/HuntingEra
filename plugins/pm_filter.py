@@ -2946,24 +2946,24 @@ async def advantage_spell_chok(client, name, msg, reply_msg, vj_search):
         logger.exception(e)
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-            InlineKeyboardButton("Requested Movies", url=f"https://t.me/Movie_Pirates_x")
+            InlineKeyboardButton("✅ 𝐀𝐥𝐥 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐌𝐨𝐯𝐢𝐞𝐬 👈 🏴‍☠", url=f"https://t.me/+sy71jKILdEVlNjU1")
         ]]
         if NO_RESULTS_MSG:
             await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
         k = await reply_msg.edit_text(text=script.I_CUDNT.format(mv_rqst), reply_markup=InlineKeyboardMarkup(button))
-        await asyncio.sleep(30)
+        await asyncio.sleep(90)
         await k.delete()
         return
     movielist = []
     if not movies:
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-            InlineKeyboardButton("Requested Movies", url=f"https://t.me/Movie_Pirates_x")
+            InlineKeyboardButton("✅ 𝐀𝐥𝐥 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐌𝐨𝐯𝐢𝐞𝐬 👈 🏴‍☠", url=f"https://t.me/+sy71jKILdEVlNjU1")
         ]]
         if NO_RESULTS_MSG:
             await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
         k = await reply_msg.edit_text(text=script.I_CUDNT.format(mv_rqst), reply_markup=InlineKeyboardMarkup(button))
-        await asyncio.sleep(30)
+        await asyncio.sleep(90)
         await k.delete()
         return
     movielist += [movie.get('title') for movie in movies]
@@ -2984,12 +2984,12 @@ async def advantage_spell_chok(client, name, msg, reply_msg, vj_search):
                 break
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-            InlineKeyboardButton("Requested Movies", url=f"https://t.me/Movie_Pirates_x")
+            InlineKeyboardButton("✅ 𝐀𝐥𝐥 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐌𝐨𝐯𝐢𝐞𝐬 👈 🏴‍☠", url=f"https://t.me/+sy71jKILdEVlNjU1")
         ]]
         if NO_RESULTS_MSG:
             await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
         k = await reply_msg.edit_text(text=script.I_CUDNT.format(mv_rqst), reply_markup=InlineKeyboardMarkup(button))
-        await asyncio.sleep(30)
+        await asyncio.sleep(90)
         await k.delete()
         return
     else:
