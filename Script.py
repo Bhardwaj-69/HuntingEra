@@ -5,16 +5,16 @@
 
 class script(object):
     START_TXT = """<b><blockquote>⚓︎ 𝚈𝚘 𝙷𝚘 ! {}, 
-    As You Know I Am <a href=https://t.me/{}>{}</a></blockquote>
+As You Know I Am <a href=https://t.me/{}>{}</a></blockquote></b>
 
-⚓ Let me guide you How to Find Movies or Series 💀
-Just send me Movies or Series Name & Get Ready To Grab It. 🏴‍☠   
- 
-Do You Want To Create Your Own <b>Movies Request Group</b>? 
-🌝 It's Simple!.
-<b><blockquote> Simply Add Me in Your Group & Make Me Admin</b>.
+<b>⚓ Let me guide you How to Find Movies or Series 💀
+Just send me Movies or Series Name & Get Ready To Grab It. 🏴‍☠</b>
+━━━━━━━━━━━━━━━━━━━
+Do You Want To Create Your Own <b>Movie Request Group</b>? 
+<b><blockquote expandable>🌝 It's Simple!.
+Simply Add Me in Your Group & Make Me Admin</b>.
 I Will Provide All Movies For Your Members. 😉</blockquote>
-"""
+⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
@@ -188,7 +188,7 @@ Nᴀᴍᴇ - {}"""
     CUDNT_FND = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}
 ᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏꜰ ᴛʜᴇꜱᴇ?"""
 
-    I_CUDNT = """Sorry Dear No Files Found For Your Request {} 🌝
+    I_CUDNT = """ Dear No Files Found For Your Request {} 🌝
 
 ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ <b>ɢᴏᴏɢʟᴇ </b>👈ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 😘
 
@@ -200,7 +200,7 @@ Nᴀᴍᴇ - {}"""
 ᴇxᴀᴍᴘʟᴇ : Pushpa or Pushpa 2022 or Pushpa Hin 
 
 ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
-ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or From S03E24
+ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or From S03E10
 
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ send,in,dub,dubbed':(!:,./) </blockquote></b>"""
 
