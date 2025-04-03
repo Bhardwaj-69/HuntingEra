@@ -5,14 +5,16 @@
 
 class script(object):
     START_TXT = """<b><blockquote>⚓︎ 𝚈𝚘 𝙷𝚘 ! {}, 
-    Myself <a href=https://t.me/{}>{}</a></blockquote>
-    
- Now You Don't Need to Go Anywhere
-ᢵYou Will Get Everything Hereᢴ 
-Just Type Your Movie-Series Name With Proper Spelling 
+    As You Know I Am <a href=https://t.me/{}>{}</a></blockquote>
 
-ᢾᗯOᖇK ᒪIKᗴ ᗩ ᑕᗩᑭTᗩIᑎ ⎈ 
-ᑭᒪᗩY ᒪIKᗴ ᗩ ᑭIᖇᗩTᗴᢿ</b>"""
+⚓ Let me guide you How to Find Movies or Series 💀
+Just send me Movies or Series Name & Get Ready To Grab It. 🏴‍☠   
+ 
+Do You Want To Create Your Own <b>Movies Request Group</b>? 
+🌝 It's Simple!.
+<b><blockquote> Simply Add Me in Your Group & Make Me Admin</b>.
+I Will Provide All Movies For Your Members. 😉</blockquote>
+"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
@@ -186,19 +188,21 @@ Nᴀᴍᴇ - {}"""
     CUDNT_FND = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}
 ᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏꜰ ᴛʜᴇꜱᴇ?"""
 
-    I_CUDNT = """<b>sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs ᴡᴇʀᴇ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ {} 😕
+    I_CUDNT = """Sorry Dear No Files Found For Your Request {} 🌝
 
-ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 😃
+ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ <b>ɢᴏᴏɢʟᴇ </b>👈ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 😘
+
+<b><blockquote expandable>🌚 How to send request
+
+💡Just Send Movie Name With Proper Spelling. 🙂
 
 ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
-
-ᴇxᴀᴍᴘʟᴇ : Uncharted or Uncharted 2022 or Uncharted En
+ᴇxᴀᴍᴘʟᴇ : Pushpa or Pushpa 2022 or Pushpa Hin 
 
 ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
+ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or From S03E24
 
-ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or Lucifer S03E24
-
-🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!:,./)</b>"""
+🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ send,in,dub,dubbed':(!:,./) </blockquote></b>"""
 
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
 ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
