@@ -192,7 +192,7 @@ Nᴀᴍᴇ - {}"""
 
     I_CUDNT = """My bad, matey! No Files Found For Your Request {} 🌝
 
-ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ <a href=https://www.google.com/search?q={reqst_gle}><b>ɢᴏᴏɢʟᴇ</b></a>ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 😘
+ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ <b><a href=https://www.google.com/search?q={reqst_gle}>ɢᴏᴏɢʟᴇ</a></b> ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 😘
 
 <b><blockquote expandable>🌚 How to send request
 
