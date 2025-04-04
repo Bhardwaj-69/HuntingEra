@@ -51,7 +51,7 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('💞 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ 💞', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💎 Premium Movies 🏴‍☠', callback_data="https://t.me/+02e7v00GQ4o2MDA1"),
+                InlineKeyboardButton('💎 Premium Movies 🏴‍☠', url=f'https://t.me/+02e7v00GQ4o2MDA1'),
                 InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
@@ -65,7 +65,7 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💎 Premium Movies 🏴‍☠', callback_data="https://t.me/+02e7v00GQ4o2MDA1"),
+                InlineKeyboardButton('💎 Premium Movies 🏴‍☠', url=f'https://t.me/+02e7v00GQ4o2MDA1'),
                 InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
@@ -133,7 +133,7 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('🎉 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ 🎉', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💎 Premium Movies 🏴‍☠', callback_data="https://t.me/+02e7v00GQ4o2MDA1"),
+                InlineKeyboardButton('💎 Premium Movies 🏴‍☠', url=f'https://t.me/+02e7v00GQ4o2MDA1'),
                 InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
@@ -147,7 +147,7 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('🎉 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ 🎉', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💎 Premium Movies 🏴‍☠', callback_data="https://t.me/+02e7v00GQ4o2MDA1"),
+                InlineKeyboardButton('💎 Premium Movies 🏴‍☠', url=f'https://t.me/+02e7v00GQ4o2MDA1'),
                 InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
@@ -188,7 +188,7 @@ async def start(client, message):
                 buttons = [[
                     InlineKeyboardButton('🎉 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ 🎉', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('💎 Premium Movies 🏴‍☠', callback_data="https://t.me/+02e7v00GQ4o2MDA1"),
+                    InlineKeyboardButton('💎 Premium Movies 🏴‍☠', url=f'https://t.me/+02e7v00GQ4o2MDA1'),
                     InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
@@ -202,7 +202,7 @@ async def start(client, message):
                 buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
+                    InlineKeyboardButton('💎 Premium Movies 🏴‍☠', url=f'https://t.me/+02e7v00GQ4o2MDA1'),
                     InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
@@ -214,7 +214,7 @@ async def start(client, message):
                 buttons.append([InlineKeyboardButton('🤖 Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ 🤖', callback_data='clone')])
             reply_markup = InlineKeyboardMarkup(buttons)
             m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
-            await asyncio.sleep(1)
+            await asyncio.sleep(3)
             await m.delete()
             await message.reply_photo(
                 photo=random.choice(PICS),
