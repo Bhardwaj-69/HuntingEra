@@ -700,7 +700,7 @@ async def delete(bot, message):
         '_id': file_id,
     })
     if result.deleted_count:
-        await msg.edit('⚡File is successfully deleted from Pirate's Ship♻')
+        await msg.edit('⚡File is successfully deleted from Pirates Ship♻')
     else:
         file_name = re.sub(r"(_|\-|\.|\+)", " ", str(media.file_name))
         result = await Media.collection.delete_many({
