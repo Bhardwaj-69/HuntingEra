@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/0111886de8874f1bfd89e.jpg" alt="Real_Pirates Logo">
+  <img src="[https://telegra.ph/file/0111886de8874f1bfd89e.jpg](https://postimg.cc/56tPFcPF)" alt="Real_Pirates Logo">
 </p>
 <h1 align="center">
   Real_Pirates
