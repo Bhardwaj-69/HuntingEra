@@ -4,27 +4,29 @@
 
 
 class script(object):
-    START_TXT = """<b><blockquote>⚓︎ Ahoyy! {}</blockquote></b>
+    START_TXT = """<b><blockquote>⎈ʜᴇʟʟᴏ {} 🎃,
+    
+⎈ Myself  <a href=https://t.me/{}>{}</a></blockquote>
+━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━
+<blockquote>💀Now you are in ⎈  ⬍𝐏𝐢𝐫𝐚𝐭𝐞𝐬 𝐇𝐮𝐧𝐭𝐢𝐧𝐠 𝐙𝐨𝐧𝐞⬍,⚓</blockquote>
 
-<b>Let me guide you How to do Request 💀
+⭕⚓𝐋𝐞𝐭 𝐢 𝐰𝐢𝐥𝐥 𝐓𝐞𝐚𝐜𝐡 𝐲𝐨𝐮 𝐇𝐨𝐰 𝐭𝐨 𝗛𝘂𝗻𝘁 ⬍𝙈𝙤𝙫𝙞𝙚⬍ & ⬍𝙎𝙚𝙧𝙞𝙚𝙨⬍🏴‍☠️
 
-Just send me Movies or Series Name & Get Ready To Grab It. 🏴‍☠</b>
-━━━━━━━━━━━━━━━━━━━
+🍁🏴‍☠️Just send 𝙼𝚘𝚟𝚒𝚎𝚜 & 𝚂𝚎𝚛𝚒𝚎𝚜 Name nd Ready to 𝙳𝚎𝚎𝚙-𝙳𝚒𝚎 𝚒𝚗 𝙿𝚒𝚛𝚊𝚌𝚢💀
 
-<b>Do You Want Movies in Your Own Group</b>? 🌝
-<b><blockquote expandable>Simply Add Me in Your Group & Make Me Admin</b>.
+━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━
+<blockquote>💥🅝︎🅞︎🅣︎🅔︎.❗️ ℙ𝕚𝕣𝕒𝕔𝕪 𝕚𝕤 ℂ𝕣𝕚𝕞𝕖.😳
 
-I Will Provide All Movies For Your Members. 😉</blockquote>
-⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍⬍"""
+-  ⎈ 𝕒𝕟𝕕 ℙ𝕚𝕣𝕒𝕥𝕖𝕤⚓️ 𝕒𝕣𝕖 𝔹𝕠𝕣𝕟 𝕥𝕠 𝔽𝕦*𝕜 𝕥𝕙𝕖 𝕃𝔸𝕎'𝕤😎</blockquote></b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
 ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ᴀɴᴅ ᴘᴏᴡᴇʀғᴜʟʟ ᴀᴜᴛᴏғɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs ᴊᴜsᴛ ᴛʏᴘᴇ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ 💘</b>"""
     
-    HELP_TXT = """<b>Hᴇʏ {}
-Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
+    HELP_TXT = """<b>🍁Hᴇʏ {}
+🔆Pirates Capablity🗿</b>"""
 
-    ABOUT_TXT = """<b><blockquote>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟</blockquote>
+    ABOUT_TXT = """<b><blockquote>⎈───[ ⎈About Me⚓ ]───⎈</blockquote>
     
 ‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
 ‣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
@@ -54,13 +56,13 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 👨‍💻 Cᴏᴍᴍᴀɴᴅ : /clone</b>"""
 
     SUBSCRIPTION_TXT = """
-<b>ʀᴇғᴇʀʀᴇ ʏᴏᴜʀ ʟɪɴᴋ ᴛᴏ ʏᴏᴜʀ ғʀɪᴇɴᴅs, ғᴀᴍɪʟʏ, ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ɢʀᴏᴜᴘ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ ғᴏʀ {}
+<b>Referre Your Link🔗 ᴛᴏ anyone who can Start the Bot Just For You🌻 amd Get FREE Premium 👑 For  {}
 
-ʀᴇғᴇʀᴀʟ ʟɪɴᴋ - https://telegram.me/{}?start=Real_Pirates-{}
+RefeRal Link 🔗- https://telegram.me/{}?start=VJ-{}
 
-ɪғ {} ᴜɴɪǫᴜᴇ ᴜsᴇʀ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴡɪᴛʜ ʏᴏᴜʀ ʀᴇғᴇʀᴀʟ ʟɪɴᴋ ᴛʜᴇɴ ʏᴏᴜ ᴡɪʟʟ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴀᴅᴅᴇᴅ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ.
+✨If {} New Users Start the Bot by Your Link🔗 then you will added to PREMIUM👑 without Pay💸.
 
-Set @Real_Pirates in Your Bio </b>"""
+🔆Buy Paid Plans by⚡ - /plan</b>"""
 
 
 
@@ -120,9 +122,9 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
 my features Stay here new features coming soon...  
- <b>✯ Maintained by : <a href=https://t.me/Real_Pirates>☢ REAL PIRATES ☢</a></b>
+ <b>✯ Maintained by : <a href={}>Owner</a></b>
   
- <b>✯ Surprise Channel 😘 : <a href=https://t.me/GeniusJunctionX>☢ Join Fast 🔥 ☢</a></b> 
+ <b>✯ Join here : <a href={}>Update Channel</a></b> 
   
  ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
  code> 
@@ -163,89 +165,87 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /delallg - <code>Tᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ Gғɪʟᴛᴇʀs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>
 • /deletefiles - <code>Tᴏ ᴅᴇʟᴇᴛᴇ CᴀᴍRɪᴘ ᴀɴᴅ PʀᴇDVD Fɪʟᴇs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>"""
 
-    STATUS_TXT = """<b>★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
-★ 👥 Tᴏᴛᴀʟ Usᴇʀs 👥: <code>{}</code>
-★ 💬 Tᴏᴛᴀʟ Cʜᴀᴛs 💬: <code>{}</code>
-★ 💠 Usᴇᴅ Sᴛᴏʀᴀɢᴇ 💠: <code>{}</code>
-★  🗂 Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ 🗂 : <code>{}</code></b>"""
+    STATUS_TXT = """<b>-★-Tᴏᴛᴀʟ Usᴇʀs⭕: <code>{}</code>
+-★-💀Tᴏᴛᴀʟ Cʜᴀᴛs💀: <code>{}</code>
+-★-⎈Tᴏᴛᴀʟ Fɪʟᴇs⎈: <code>{}</code>
+-★-🏴‍☠️Usᴇᴅ Sᴛᴏʀᴀɢᴇ🏴‍☠️: <code>{} MB</code>
+-★-⚓Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ⚓: <code>{} MB</code></b>"""
 
-    LOG_TEXT_G = """#NewGroup
-Gʀᴏᴜᴘ = {}(<code>{}</code>)
-Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
-Aᴅᴅᴇᴅ Bʏ - {}"""
+    LOG_TEXT_G = """⎈#NewGroup🌟
+Gʀᴏᴜᴘ⎈ = {}(<code>{}</code>)
+Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs🏴‍☠⚡ = <code>{}</code>
+⎈Aᴅᴅᴇᴅ Bʏ🏴‍☠️ - {}"""
 
-    LOG_TEXT_P = """#NewUser
-ID - <code>{}</code>
-Nᴀᴍᴇ - {}"""
+    LOG_TEXT_P = """⎈#NewUser⚡
+⎈ID - <code>{}</code>
+⎈Nᴀᴍᴇ - {}"""
 
-    ALRT_TXT = """Oops {},
-❤️ It's not requested by you Darling‌‌ 🌝
+    ALRT_TXT = """ʜᴇʟʟᴏ🎃 {},
+⎈Dont Pirate on Others Request❗,
+⚓Be a Pirate⎈ nd Request Your Loot💀"""
 
-Do your own request 😉"""
+    OLD_ALRT_TXT = """ʜᴇʏ 🏴‍☠️{},
+❗You are Using Old Loot😒, 
+⎈Please Send Request Again.⚓."""
 
-    OLD_ALRT_TXT = """ʜᴇʏ {},
-ʏᴏᴜ ᴀʀᴇ ᴜꜱɪɴɢ ᴏɴᴇ ᴏꜰ ᴍʏ ᴏʟᴅ ᴍᴇꜱꜱᴀɢᴇꜱ, 
-ᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴛʜᴇ ʀᴇǫᴜᴇsᴛ ᴀɢᴀɪɴ."""
+    CUDNT_FND = """⎈I Coulden't Find🙄 anything Like {}
+Did you mean This⎈"""
 
-    CUDNT_FND = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}
-ᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏꜰ ᴛʜᴇꜱᴇ?"""
+    I_CUDNT = """<b>⎈Sorry No Loot Found for this in the Whole Piracy Sea🏴‍☠️.🍁 {} 😕
 
-    I_CUDNT = """My bad, matey! No Files Found For Your Request {} 🌝
+⎈do Google and give me Adject Name of you Movie🕷
 
-ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ <b><a href=https://www.google.com/search?q={reqst_gle}>ɢᴏᴏɢʟᴇ</a></b> ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 😘
+♠send Movies Like This.!🔆
+🎃Ex.::-- : Animal or Animal 2023 or Animal Hin.  🕸
 
-<b><blockquote expandable>🌚 How to send request
+♣send WebSeries Like This.!💢
+🎃Ex.::--: From S01 or From S01E04 or Stranger Things S03E06
 
-💡Just Send Movie Name With Proper Spelling. 🙂
+⭕🚫 Dont ➠ ':(!,./) 0nly name of Content that you want.🗝
 
-ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
-ᴇxᴀᴍᴘʟᴇ : Pushpa or Pushpa 2022 or Pushpa Hin 
+<blockquote>❗💢If you Still not Find it Then click billow👇 🔆⎈𝙍𝙚𝙦𝙪𝙨𝙩 𝙩𝙤 𝘾𝙖𝙥𝙩𝙖𝙞𝙣 𝙎𝙥𝙖𝙧𝙧𝙤𝙬⚓️🏴‍☠️ 
 
-ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
-ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or From S03E10
+🎃we will Upload it As Soon as Possible🕷</b></blockquote>"""
 
-🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ send,in,dub,dubbed':(!:,./) </blockquote></b> 
-      Join & Unmute🔔 ✅
-🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰"""
+    I_CUD_NT = """❗⎈Sorry No Loot Found for this in the Whole Piracy Sea🏴‍☠️.🍁 {}.
+⚡Check Spalling or Requst to ⎈Captain Jack Sparrow🕷"""
 
-    I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
-ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
+    MVE_NT_FND = """❗Movie Not Found in Piracy World💢..."""
 
-    MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ..."""
+    TOP_ALRT_MSG = """❗Checking for Movie in Piracy World .♻..."""
 
-    TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
+    MELCOW_ENG = """<b>⎈ᕼYYY ᗪᗴᗩᖇ {} 🔆, &
 
-    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
+           ⎈🏴‍☠Your Welcome to.🎃 {}  𝖺𝗌 𝖺 𝗇𝖾𝗐 PIRATE.⎈⚓️</b>"""
 
     SHORTLINK_INFO = """
 
 🫵 Select Your Language And Earn Money 💰"""
 
     REQINFO = """
-⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
+⚠ ❗ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
 
-ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ
+after ❗5❗ minuts💢  This Message will be AutoMaticly Deleted.💢
 
-ɪꜰ ʏᴏᴜ ᴅᴏ ɴᴏᴛ ꜱᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ / sᴇʀɪᴇs ꜰɪʟᴇ, ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ"""
+🔱Check All Pages of Requests.."""
 
-    SELECT = """sᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴘʀᴇғᴇʀʀᴇᴅ ʟᴀɴɢᴜᴀɢᴇ, ǫᴜᴀʟɪᴛʏ, sᴇᴀsᴏɴ ᴀɴᴅ ᴇᴘɪsᴏᴅᴇ"""
+    SELECT = """🤞Select your  Preferred LanGuage, Quality, Seasons & Episode🤞"""
 
     SINFO = """
-⚠️ For Movie Join First Then Click On Try Again Button 😊"""
+🫣 ♻For Movie Join First🌻 Then Click On Try Again Button 😎"""
 
     NORSLTS = """ 
-★ #𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀 ★
+⎈-★-#𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀-★-⎈
 
-𝗜𝗗 <b>: {}</b>
+⚓𝗜𝗗 <b>: {}</b>
 
-𝗡𝗮𝗺𝗲 <b>: {}</b>
+🎃𝗡𝗮𝗺𝗲 <b>: {}</b>
 
-𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
+🏴‍☠️𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b><blockquote>⎈ <a href= https://t.me/Real_Piratex> {file_name}</a></blockquote></b>
-<b><pre>𝐅𝐢𝐥𝐞 𝐒𝐢𝐳𝐞 📥 ➺ {file_size}</pre></b>
-<b>𓊝  Provided by ⭛</b>
-<b><blockquote>➜ <a href=https://t.me/Real_Pirates> ⎈ @Real_Pirates 🏴‍☠</a></blockquote></b>"""
+    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
+
+<b>⚙️ sɪᴢᴇ : {file_size}</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
@@ -262,9 +262,9 @@ IMDb Data:
 🎛 Countries : <code>{countries}</code>
 
 
-⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
+⚡Result in: {remaining_seconds} <i>seconds</i> 🔥
 
-Requested by : {message.from_user.mention}</b>"""
+Requested by🔆 : {message.from_user.mention}</b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
@@ -462,16 +462,16 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
  
     RESTART_TXT = """
-<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
+<b>💥Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ♻ !
 
-📅 Dᴀᴛᴇ : <code>{}</code>
-⏰ Tɪᴍᴇ : <code>{}</code>
-🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
+🌟 Dᴀᴛᴇ : <code>{}</code>
+🔆 Tɪᴍᴇ : <code>{}</code>
+✨ Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
     LOGO = """
 
-BOT WORKING PROPERLY"""
+⭕💢Enjoy Your Day Pirate.💀"""
  
     TAMIL_INFO = """
 ஏய் <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a> 
