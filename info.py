@@ -114,11 +114,7 @@ SHORTLINK_API = environ.get('SHORTLINK_API', '')
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', '🎃Hellow⎈Pirate⚓')
-CUSTOM_FILE_CAPTION = """<b>🎃File Name➥⎈<a  href="https://t.me/+HlMV7jE91ghjOTNl">{file_name}</a> 
-
-♻️ sɪᴢᴇ : <a href="https://t.me/+wInAv9bWVUlhNjI1">{file_size}</a> 
-
-<blockquote>⎈Join us🍁:-- @LarvaLinks🏝</blockquote></b>"""
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
