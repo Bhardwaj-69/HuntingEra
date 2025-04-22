@@ -5,12 +5,12 @@
 
 class script(object):
     START_TXT = """<b><blockquote>⎈ʜᴇʟʟᴏ {} 🎃,
-    
+━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━    
 ⎈ Myself  <a href=https://t.me/{}>{}</a></blockquote>
 ━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━
 <blockquote>💀Now you are in ⎈  ⬍𝐏𝐢𝐫𝐚𝐭𝐞𝐬 𝐇𝐮𝐧𝐭𝐢𝐧𝐠 𝐙𝐨𝐧𝐞⬍,⚓</blockquote>
-
-🍁🏴‍☠️Just send 𝙼𝚘𝚟𝚒𝚎𝚜 & 𝚂𝚎𝚛𝚒𝚎𝚜 Name nd Ready to 𝙳𝚎𝚎𝚙-𝙳𝚒𝚎 𝚒𝚗 𝙿𝚒𝚛𝚊𝚌𝚢💀
+━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━
+🔆𝙅𝙪𝙨𝙩 𝙨𝙚𝙣𝙙  ⬍⎈𝙼𝚘𝚟𝚒𝚎𝚜 & 𝚂𝚎𝚛𝚒𝚎𝚜⎈⬍  𝙉𝙖𝙢𝙚 𝙣𝙙 𝙍𝙚𝙖𝙙𝙮 𝙩𝙤 𝙳𝚎𝚎𝚙-𝙳𝚒𝚎 𝚒𝚗 𝙿𝚒𝚛𝚊𝚌𝚢💀
 ━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━
 <blockquote>💥🅝︎🅞︎🅣︎🅔︎.❗️ ℙ𝕚𝕣𝕒𝕔𝕪 𝕚𝕤 ℂ𝕣𝕚𝕞𝕖.😳</blockquote></b>"""
 
