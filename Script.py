@@ -238,7 +238,7 @@ after ❗5❗ minuts💢  This Message will be AutoMaticly Deleted.💢
 
     CAPTION = """<b>🎃File Name➥⎈⬍⬍<a  href="https://t.me/+HlMV7jE91ghjOTNl">{file_name}</a>⬍⬍ 
 
-♻️ Size⬍ : ⬍⬍<a href="https://t.me/+wInAv9bWVUlhNjI1">⬍⬍{file_size}⬍⬍</a>⬍⬍ 
+♻️ Size⬍ : ⬍⬍<a href="https://t.me/+wInAv9bWVUlhNjI1">{file_size}</a>⬍⬍ 
 
 <blockquote>⬍⎈Join us🍁:--⬍⬍ @LarvaLinks 🏝⬍⬍</blockquote></b>"""
 
