@@ -10,14 +10,9 @@ class script(object):
 ━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━
 <blockquote>💀Now you are in ⎈  ⬍𝐏𝐢𝐫𝐚𝐭𝐞𝐬 𝐇𝐮𝐧𝐭𝐢𝐧𝐠 𝐙𝐨𝐧𝐞⬍,⚓</blockquote>
 
-⭕⚓𝐋𝐞𝐭 𝐢 𝐰𝐢𝐥𝐥 𝐓𝐞𝐚𝐜𝐡 𝐲𝐨𝐮 𝐇𝐨𝐰 𝐭𝐨 𝗛𝘂𝗻𝘁 ⬍𝙈𝙤𝙫𝙞𝙚⬍ & ⬍𝙎𝙚𝙧𝙞𝙚𝙨⬍🏴‍☠️
-
 🍁🏴‍☠️Just send 𝙼𝚘𝚟𝚒𝚎𝚜 & 𝚂𝚎𝚛𝚒𝚎𝚜 Name nd Ready to 𝙳𝚎𝚎𝚙-𝙳𝚒𝚎 𝚒𝚗 𝙿𝚒𝚛𝚊𝚌𝚢💀
-
 ━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━
-<blockquote>💥🅝︎🅞︎🅣︎🅔︎.❗️ ℙ𝕚𝕣𝕒𝕔𝕪 𝕚𝕤 ℂ𝕣𝕚𝕞𝕖.😳
-
--  ⎈ 𝕒𝕟𝕕 ℙ𝕚𝕣𝕒𝕥𝕖𝕤⚓️ 𝕒𝕣𝕖 𝔹𝕠𝕣𝕟 𝕥𝕠 𝔽𝕦*𝕜 𝕥𝕙𝕖 𝕃𝔸𝕎'𝕤😎</blockquote></b>"""
+<blockquote>💥🅝︎🅞︎🅣︎🅔︎.❗️ ℙ𝕚𝕣𝕒𝕔𝕪 𝕚𝕤 ℂ𝕣𝕚𝕞𝕖.😳</blockquote></b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
@@ -214,7 +209,7 @@ Did you mean This⎈"""
 
     TOP_ALRT_MSG = """❗Checking for Movie in Piracy World .♻..."""
 
-    MELCOW_ENG = """<b>⎈ᕼYYY ᗪᗴᗩᖇ {} 🔆, &
+    MELCOW_ENG = """<b>⎈Ahhoyy! Pirate {} 🔆, &
 
            ⎈🏴‍☠Your Welcome to.🎃 {}  𝖺𝗌 𝖺 𝗇𝖾𝗐 PIRATE.⎈⚓️</b>"""
 
@@ -243,9 +238,11 @@ after ❗5❗ minuts💢  This Message will be AutoMaticly Deleted.💢
 
 🏴‍☠️𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """<b>🎃File Name➥⎈<a  href="https://t.me/+HlMV7jE91ghjOTNl">⬍⬍{file_name}⬍⬍</a> 
 
-<b>⚙️ sɪᴢᴇ : {file_size}</b>"""
+♻️ Size⬍ : <a href="https://t.me/+wInAv9bWVUlhNjI1">⬍⬍{file_size}⬍⬍</a> 
+
+<blockquote>⬍⎈Join us🍁:--⬍⬍ @LarvaLinks 🏝⬍⬍</blockquote></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
@@ -718,13 +715,13 @@ Also your tutorial will be Added Your Group..."""
     DEVELOPER_TXT = """
 special Thanks To ❤️ Developers -
 
--Dev 1 [Owner of this bot ]<a href='https://t.me/Real_Pirates'>REAL_PIRATES</a>
+-Dev 1 [Owner of this bot ]<a href='https://t.me/BhardwajBhavit'>⬍Captain Jack⬍</a>
 
--Dev 2 <a href='https://t.me/Real_Pirates'>REAL_PIRATES</a>
+-Dev 2 <a href='https://t.me/+0N8PrXlNhOYyNjg1'>tap karke dekh le.💀🗿</a>
 
--Dev 3 <a href='https://t.me/Real_Pirates'>REAL_PIRATES</a>
+-Dev 3 <a href='https://t.me/+6nFFXikz4ZkxZTQ1'>tap karke dekh le.💀</a>
 
-- Dev 4 <a href='https://t.me/Real_Pirates'>REAL_PIRATES Crew</a>
+- Dev 4 <a href='https://t.me/+xIYS8qn_Nhs2Y2E1'>tap karke dekh le.💀</a>
 """
 
     RENAME_TXT = """
