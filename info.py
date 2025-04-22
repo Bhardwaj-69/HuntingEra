@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', '28148293'))
 API_HASH = environ.get('API_HASH', '32ce81ffdd4684a856370eccf62b1f80')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7984880417:AAHeJaBygHvxrZ0oyxCXoLBLbcCqU12BvlQ")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7984880417:AAGGZAwIDYdMtCJOEEO-tVi4tZyJ3KcLF8E")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -51,7 +51,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002488966442').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://cetih70677:kFKr3vlI336ca1h1@cluster0.qykp0tu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://yicor45000:0y1kwEKr8xEA9Tqu@cluster0.y5ugn35.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'PiratesHunts')
 
