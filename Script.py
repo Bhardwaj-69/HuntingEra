@@ -4,15 +4,13 @@
 
 
 class script(object):
-    START_TXT = """<b><blockquote>⎈ʜᴇʟʟᴏ {} 🎃,
-━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━    
+    START_TXT = """<b><blockquote>⎈Ahhoy! Pirate⬍{}🎃,
+━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━    
 ⎈ Myself  <a href=https://t.me/{}>{}</a></blockquote>
-━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━
+━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━
 <blockquote>💀Now you are in ⎈  ⬍𝐏𝐢𝐫𝐚𝐭𝐞𝐬 𝐇𝐮𝐧𝐭𝐢𝐧𝐠 𝐙𝐨𝐧𝐞⬍,⚓</blockquote>
-━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━
-🔆𝙅𝙪𝙨𝙩 𝙨𝙚𝙣𝙙  ⬍⎈𝙼𝚘𝚟𝚒𝚎𝚜 & 𝚂𝚎𝚛𝚒𝚎𝚜⎈⬍  𝙉𝙖𝙢𝙚 𝙣𝙙 𝙍𝙚𝙖𝙙𝙮 𝙩𝙤 𝙳𝚎𝚎𝚙-𝙳𝚒𝚎 𝚒𝚗 𝙿𝚒𝚛𝚊𝚌𝚢💀
-━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━
-<blockquote>💥🅝︎🅞︎🅣︎🅔︎.❗️ ℙ𝕚𝕣𝕒𝕔𝕪 𝕚𝕤 ℂ𝕣𝕚𝕞𝕖.😳</blockquote></b>"""
+━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━
+<blockquote>🔆𝙅𝙪𝙨𝙩 𝙨𝙚𝙣𝙙  ⬍⎈𝙼𝚘𝚟𝚒𝚎𝚜 & 𝚂𝚎𝚛𝚒𝚎𝚜⎈⬍  𝙉𝙖𝙢𝙚</blockquote></b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
@@ -238,9 +236,9 @@ after ❗5❗ minuts💢  This Message will be AutoMaticly Deleted.💢
 
 🏴‍☠️𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>🎃File Name➥⎈<a  href="https://t.me/+HlMV7jE91ghjOTNl">⬍⬍{file_name}⬍⬍</a> 
+    CAPTION = """<b>🎃File Name➥⎈⬍⬍<a  href="https://t.me/+HlMV7jE91ghjOTNl">{file_name}</a>⬍⬍ 
 
-♻️ Size⬍ : <a href="https://t.me/+wInAv9bWVUlhNjI1">⬍⬍{file_size}⬍⬍</a> 
+♻️ Size⬍ : ⬍⬍<a href="https://t.me/+wInAv9bWVUlhNjI1">⬍⬍{file_size}⬍⬍</a>⬍⬍ 
 
 <blockquote>⬍⎈Join us🍁:--⬍⬍ @LarvaLinks 🏝⬍⬍</blockquote></b>"""
 
