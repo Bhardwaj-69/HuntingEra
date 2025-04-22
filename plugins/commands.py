@@ -28,12 +28,12 @@ async def start(client, message):
         pass
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                InlineKeyboardButton('⭕ Ad to Your Group ⭕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('⭕make Your Group⭕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💢Help💢', callback_data='help'),
-                InlineKeyboardButton('💢⎈Movie Group⎈💢', url=GRP_LNK)
+                InlineKeyboardButton('⬍⎈FreeDataBase⎈⬍', url='https://t.me/+Y_QdbkhM2OFmNmZl'),
+                InlineKeyboardButton('⬍⎈Movie Grp⎈⬍', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('⭕Premium👑& Referral⭕', callback_data='subscription')
+                InlineKeyboardButton('⎈⬍🔞🥵⬍⎈', url='https://t.me/+xIYS8qn_Nhs2Y2E1')
             ],[
                 InlineKeyboardButton('💢⬍Update Channel⬍💢', url=CHNL_LNK)
             ]]
@@ -51,23 +51,23 @@ async def start(client, message):
     if len(message.command) != 2:
         if PREMIUM_AND_REFERAL_MODE == True:
             buttons = [[
-                InlineKeyboardButton('⭕ Ad to Your Group ⭕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('⭕make Your Group⭕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💢Help💢', callback_data='help'),
-                InlineKeyboardButton('💢⎈Movie Group⎈💢', url=GRP_LNK)
+                InlineKeyboardButton('⬍⎈FreeDataBase⎈⬍', url='https://t.me/+Y_QdbkhM2OFmNmZl'),
+                InlineKeyboardButton('⬍⎈Movie Grp⎈⬍', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('⭕Premium👑& Referral⭕', callback_data='subscription')
+                InlineKeyboardButton('⎈⬍🔞🥵⬍⎈', url='https://t.me/+xIYS8qn_Nhs2Y2E1')
             ],[
                 InlineKeyboardButton('💢⬍Update Channel⬍💢', url=CHNL_LNK)
             ]]
         else:
             buttons = [[
-                InlineKeyboardButton('⭕ Ad to Your Group ⭕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('⭕make Your Group⭕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💢Help💢', callback_data='help'),
-                InlineKeyboardButton('💢⎈Movie Group⎈💢', url=GRP_LNK)
+                InlineKeyboardButton('⬍⎈FreeDataBase⎈⬍', url='https://t.me/+Y_QdbkhM2OFmNmZl'),
+                InlineKeyboardButton('⬍⎈Movie Grp⎈⬍', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('⭕Premium👑& Referral⭕', callback_data='subscription')
+                InlineKeyboardButton('⎈⬍🔞🥵⬍⎈', url='https://t.me/+xIYS8qn_Nhs2Y2E1')
             ],[
                 InlineKeyboardButton('💢⬍Update Channel⬍💢', url=CHNL_LNK)
             ]]
@@ -129,23 +129,23 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         if PREMIUM_AND_REFERAL_MODE == True:
             buttons = [[
-                InlineKeyboardButton('⭕ Ad to Your Group ⭕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('⭕make Your Group⭕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💢Help💢', callback_data='help'),
-                InlineKeyboardButton('💢⎈Movie Group⎈💢', url=GRP_LNK)
+                InlineKeyboardButton('⬍⎈FreeDataBase⎈⬍', url='https://t.me/+Y_QdbkhM2OFmNmZl'),
+                InlineKeyboardButton('⬍⎈Movie Grp⎈⬍', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('⭕Premium👑& Referral⭕', callback_data='subscription')
+                InlineKeyboardButton('⎈⬍🔞🥵⬍⎈', url='https://t.me/+xIYS8qn_Nhs2Y2E1')
             ],[
                 InlineKeyboardButton('💢⬍Update Channel⬍💢', url=CHNL_LNK)
             ]]
         else:
             buttons = [[
-                InlineKeyboardButton('⭕ Ad to Your Group ⭕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('⭕make Your Group⭕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💢Help💢', callback_data='help'),
-                InlineKeyboardButton('💢⎈Movie Group⎈💢', url=GRP_LNK)
+                InlineKeyboardButton('⬍⎈FreeDataBase⎈⬍', url='https://t.me/+Y_QdbkhM2OFmNmZl'),
+                InlineKeyboardButton('⬍⎈Movie Grp⎈⬍', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('⭕Premium👑& Referral⭕', callback_data='subscription')
+                InlineKeyboardButton('⎈⬍🔞🥵⬍⎈', url='https://t.me/+xIYS8qn_Nhs2Y2E1')
             ],[
                 InlineKeyboardButton('💢⬍Update Channel⬍💢', url=CHNL_LNK)
             ]]
@@ -180,28 +180,28 @@ async def start(client, message):
         else:
             if PREMIUM_AND_REFERAL_MODE == True:
                 buttons = [[
-                InlineKeyboardButton('⭕ Ad to Your Group ⭕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('⭕make Your Group⭕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💢Help💢', callback_data='help'),
-                InlineKeyboardButton('💢⎈Movie Group⎈💢', url=GRP_LNK)
+                InlineKeyboardButton('⬍⎈FreeDataBase⎈⬍', url='https://t.me/+Y_QdbkhM2OFmNmZl'),
+                InlineKeyboardButton('⬍⎈Movie Grp⎈⬍', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('⭕Premium👑& Referral⭕', callback_data='subscription')
+                InlineKeyboardButton('⎈⬍🔞🥵⬍⎈', url='https://t.me/+xIYS8qn_Nhs2Y2E1')
             ],[
                 InlineKeyboardButton('💢⬍Update Channel⬍💢', url=CHNL_LNK)
             ]]
             else:
                 buttons = [[
-                InlineKeyboardButton('⭕ Ad to Your Group ⭕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('⭕make Your Group⭕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💢Help💢', callback_data='help'),
-                InlineKeyboardButton('💢⎈Movie Group⎈💢', url=GRP_LNK)
+                InlineKeyboardButton('⬍⎈FreeDataBase⎈⬍', url='https://t.me/+Y_QdbkhM2OFmNmZl'),
+                InlineKeyboardButton('⬍⎈Movie Grp⎈⬍', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('⭕Premium👑& Referral⭕', callback_data='subscription')
+                InlineKeyboardButton('⎈⬍🔞🥵⬍⎈', url='https://t.me/+xIYS8qn_Nhs2Y2E1')
             ],[
                 InlineKeyboardButton('💢⬍Update Channel⬍💢', url=CHNL_LNK)
             ]]
             if CLONE_MODE == True:
-                buttons.append([InlineKeyboardButton('🤖 Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ 🤖', callback_data='clone')])
+                buttons.append([InlineKeyboardButton('Clone Bana lo🏝', callback_data='clone')])
             reply_markup = InlineKeyboardMarkup(buttons)
             m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
             await asyncio.sleep(3)
@@ -261,11 +261,11 @@ async def start(client, message):
                     download = f"{URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
  
                     await log_msg.reply_text(
-                        text=f"•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ꜰᴏʀ ɪᴅ #{user_id} \n•• ᴜꜱᴇʀɴᴀᴍᴇ : {username} \n\n•• ᖴᎥᒪᗴ Nᗩᗰᗴ : {fileName}",
+                        text=f"•• Link Genrated for ID #{user_id} \n•• UserName : {username} \n\n•• FILE NAME : {fileName}",
                         quote=True,
                         disable_web_page_preview=True,
-                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
-                                                            InlineKeyboardButton('🖥️ Watch Online🖥️', url=stream)]])  # web stream Link
+                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⬍⎈Fast Download⎈⬍", url=download),  # we download Link
+                                                            InlineKeyboardButton('⬍⎈Watch Online⎈⬍', url=stream)]])  # web stream Link
                     )
                 if STREAM_MODE == True:
                     button = [[
@@ -321,12 +321,12 @@ async def start(client, message):
         await asyncio.sleep(600)
         for x in filesarr:
             await x.delete()
-        await k.edit_text("<b>🏴‍☠️ Your Msg Deleted⚓</b>")       
+        await k.edit_text("<b>⬍⎈Your Msg Deleted⎈⬍</b>")       
         
         return
     
     elif data.split("-", 1)[0] == "DSTORE":
-        sts = await message.reply("<b>Please wait...🔆</b>")
+        sts = await message.reply("<b>⬍⎈Please wait...🔆⎈⬍</b>")
         b_string = data.split("-", 1)[1]
         decoded = (base64.urlsafe_b64decode(b_string + "=" * (-len(b_string) % 4))).decode("ascii")
         try:
@@ -400,13 +400,13 @@ async def start(client, message):
                     [
                         InlineKeyboardButton('🎃Download Now🎃', url=g)
                     ], [
-                        InlineKeyboardButton('⁉️How to Download⁉️', url=await get_tutorial(chat_id))
+                        InlineKeyboardButton('⬍⎈How to Download⎈⬍', url=await get_tutorial(chat_id))
                     ]
                 ]
             )
         )
         await asyncio.sleep(300)
-        await k.edit("<b>🏴‍☠️ Your Msg Deleted⚓</b>")
+        await k.edit("<b>⬍⎈Your Msg Deleted⎈⬍</b>")
         return
         
     
@@ -422,13 +422,13 @@ async def start(client, message):
                     [
                         InlineKeyboardButton('🎃Download Now🎃', url=g)
                     ], [
-                        InlineKeyboardButton('⁉️How to Download⁉️', url=await get_tutorial(chat_id))
+                        InlineKeyboardButton('⬍⎈How to Download⎈⬍', url=await get_tutorial(chat_id))
                     ]
                 ]
             )
         )
         await asyncio.sleep(1200)
-        await k.edit("<b>🏴‍☠️ Your Msg Deleted⚓</b>")
+        await k.edit("<b>⬍⎈Your Msg Deleted⎈⬍</b>")
         return
         
     elif data.startswith("all"):
@@ -492,13 +492,13 @@ async def start(client, message):
         await asyncio.sleep(600)
         for x in filesarr:
             await x.delete()
-        await k.edit_text("<b>🏴‍☠️ Your Msg Deleted⚓</b>")
+        await k.edit_text("<b>⬍⎈Your Msg Deleted⎈⬍</b>")
         return    
         
     elif data.startswith("files"):
         user = message.from_user.id
         if temp.SHORT.get(user)==None:
-            await message.reply_text(text="<b>🏴‍☠️Search Again♻</b>")
+            await message.reply_text(text="<b>⬍⎈Search Again♻</b>")
         else:
             chat_id = temp.SHORT.get(user)
         settings = await get_settings(chat_id)
@@ -511,13 +511,13 @@ async def start(client, message):
                         [
                             InlineKeyboardButton('🎃Download Now🎃', url=g)
                         ], [
-                            InlineKeyboardButton('⁉️How to Download⁉️', url=await get_tutorial(chat_id))
+                            InlineKeyboardButton('⬍⎈How to Download⎈⬍', url=await get_tutorial(chat_id))
                         ]
                     ]
                 )
             )
             await asyncio.sleep(1200)
-            await k.edit("<b>🏴‍☠️ Your Msg Deleted⚓</b>")
+            await k.edit("<b>⬍⎈Your Msg Deleted⎈⬍</b>")
             return
     user = message.from_user.id
     files_ = await get_file_details(file_id)           
@@ -574,12 +574,12 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(button)
             )
             btn = [[
-                InlineKeyboardButton("🏴‍☠️Get Files Again⚓", callback_data=f'delfile#{file_id}')
+                InlineKeyboardButton("⬍⎈Get Files Again⎈⬍", callback_data=f'delfile#{file_id}')
             ]]
-            k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>",quote=True)
+            k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>💢❗10 mins❗💢</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>",quote=True)
             await asyncio.sleep(600)
             await msg.delete()
-            await k.edit_text("<b>🏴‍☠️ Your Msg Deleted⚓\n\nIf you want Again then Click Again.💢</b>",reply_markup=InlineKeyboardMarkup(btn))
+            await k.edit_text("<b>⬍⎈Your Msg Deleted⎈⬍\n\nIf you want Again then Click Again.💢</b>",reply_markup=InlineKeyboardMarkup(btn))
             return
         except:
             pass
@@ -633,12 +633,12 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(button)
     )
     btn = [[
-        InlineKeyboardButton("🏴‍☠️Get Files Again⚓", callback_data=f'delfile#{file_id}')
+        InlineKeyboardButton("⬍⎈Get Files Again⎈⬍", callback_data=f'delfile#{file_id}')
     ]]
     k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>❗❗10 mins❗❗</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>",quote=True)
     await asyncio.sleep(600)
     await msg.delete()
-    await k.edit_text("<b>🏴‍☠️ Your Msg Deleted⚓\n\n🏴‍☠️Get Files Again⚓</b>",reply_markup=InlineKeyboardMarkup(btn))
+    await k.edit_text("<b>⬍⎈Your Msg Deleted⎈⬍\n\n🏴‍☠️Get Files Again⚓</b>",reply_markup=InlineKeyboardMarkup(btn))
     return   
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
@@ -681,9 +681,9 @@ async def log_file(bot, message):
 async def delete(bot, message):
     reply = await bot.ask(message.from_user.id, "🕷Now Send Me Media Which You Want to delete♠")
     if reply.media:
-        msg = await message.reply("Processing...🍁", quote=True)
+        msg = await message.reply("⬍⎈Processing...🍁", quote=True)
     else:
-        await message.reply('⚡Send Me Video, File Or Document.⚓', quote=True)
+        await message.reply('⚡Send Me Video, File Or Document.⎈⬍', quote=True)
         return
 
     for file_type in ("document", "video", "audio"):
@@ -700,7 +700,7 @@ async def delete(bot, message):
         '_id': file_id,
     })
     if result.deleted_count:
-        await msg.edit('⚡File is successfully deleted from Pirates Ship♻')
+        await msg.edit('⚡⬍⎈File is successfully deleted⬍ from Pirates Ship♻')
     else:
         file_name = re.sub(r"(_|\-|\.|\+)", " ", str(media.file_name))
         result = await Media.collection.delete_many({
@@ -709,7 +709,7 @@ async def delete(bot, message):
             'mime_type': media.mime_type
             })
         if result.deleted_count:
-            await msg.edit('File is successfully deleted from database')
+            await msg.edit('⚡⬍⎈File is successfully deleted⬍ from Pirates Ship♻')
         else:
             # files indexed before https://github.com/EvamariaTG/EvaMaria/commit/f3d2a1bcb155faf44178e5d7a685a1b533e714bf#diff-86b613edf1748372103e94cacff3b578b36b698ef9c16817bb98fe9ef22fb669R39 
             # have original file name.
@@ -719,7 +719,7 @@ async def delete(bot, message):
                 'mime_type': media.mime_type
             })
             if result.deleted_count:
-                await msg.edit('File is successfully deleted from database')
+                await msg.edit('⚡⬍⎈File is successfully deleted⬍ from Pirates Ship♻')
             else:
                 await msg.edit('💢File not found in Piracy World❗')
 
@@ -1008,7 +1008,7 @@ async def settings(client, message):
         reply_markup = InlineKeyboardMarkup(buttons)
         if chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
             await message.reply_text(
-                text="<b>Dᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴏᴘᴇɴ sᴇᴛᴛɪɴɢs ʜᴇʀᴇ ?</b>",
+                text="<b>⚡⬍⎈Do you want Open Settings  Here..</b>",
                 reply_markup=InlineKeyboardMarkup(btn),
                 disable_web_page_preview=True,
                 parse_mode=enums.ParseMode.HTML,
@@ -1365,9 +1365,9 @@ async def removetutorial(bot, message):
 
 @Client.on_message(filters.command("restart") & filters.user(ADMINS))
 async def stop_button(bot, message):
-    msg = await bot.send_message(text="**💢Starting Refreshing🏝**", chat_id=message.chat.id)       
+    msg = await bot.send_message(text="**💢⬍⎈Starting Refreshing🏝⎈⬍**", chat_id=message.chat.id)       
     await asyncio.sleep(3)
-    await msg.edit("**♻🎃i am Refreshed Now🎃♻**")
+    await msg.edit("**♻🎃⬍⎈i am Refreshed Now🎃♻⎈⬍**")
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 @Client.on_message(filters.command("nofsub"))
