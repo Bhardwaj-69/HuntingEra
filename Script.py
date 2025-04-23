@@ -23,7 +23,7 @@ class script(object):
     
 ‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
 ‣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
-‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Movie_Pirates_x'>Real Pirates 💀</a> 
+‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/LarvaLinks'>Tap kar ke Dekh le💀</a> 
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
@@ -82,7 +82,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/Movie_Pirates_x)</code>
+<code>[Button Text](buttonurl:https://t.me/LarvaLinks)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -130,7 +130,7 @@ my features Stay here new features coming soon...
   
  ./tts - <code>This command usage text to voice converter</code> 
   
- ./video - This command usage any YouTube video download hd [<code>example /video https://youtu.be/Aiue8PMuD-k</code>]
+ ./video - This command usage any YouTube video download hd [<code>example /video https://youtu.be/Aiue8-k</code>]
 
 ./font - This command usage stylish and cool font generator [<code>example /font hi</code>]"""
 
@@ -158,18 +158,18 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /delallg - <code>Tᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ Gғɪʟᴛᴇʀs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>
 • /deletefiles - <code>Tᴏ ᴅᴇʟᴇᴛᴇ CᴀᴍRɪᴘ ᴀɴᴅ PʀᴇDVD Fɪʟᴇs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>"""
 
-    STATUS_TXT = """<b>-★-Tᴏᴛᴀʟ Usᴇʀs⭕: <code>{}</code>
--★-💀Tᴏᴛᴀʟ Cʜᴀᴛs💀: <code>{}</code>
--★-⎈Tᴏᴛᴀʟ Fɪʟᴇs⎈: <code>{}</code>
--★-🏴‍☠️Usᴇᴅ Sᴛᴏʀᴀɢᴇ🏴‍☠️: <code>{} MB</code>
--★-⚓Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ⚓: <code>{} MB</code></b>"""
+    STATUS_TXT = """<b>-⬍⎈-Total Files-⎈⬍-: <code>{}</code>
+-⬍⎈-Total Users-⎈⬍-: <code>{}</code>
+-⬍⎈-Total Chats-⎈⬍-: <code>{}</code>
+-⬍⎈-Used Storage-⎈⬍-: <code>{} MB</code>
+-⬍⎈-Free Storage-⎈⬍-: <code>{} MB</code></b>"""
 
-    LOG_TEXT_G = """⎈#NewGroup🌟
-Gʀᴏᴜᴘ⎈ = {}(<code>{}</code>)
+    LOG_TEXT_G = """-⬍⎈-#NewGroup-⎈⬍-
+⎈Group⎈ = {}(<code>{}</code>)
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs🏴‍☠⚡ = <code>{}</code>
 ⎈Aᴅᴅᴇᴅ Bʏ🏴‍☠️ - {}"""
 
-    LOG_TEXT_P = """⎈#NewUser⚡
+    LOG_TEXT_P = """-⬍⎈-#NewUser⚡-⎈⬍-
 ⎈ID - <code>{}</code>
 ⎈Nᴀᴍᴇ - {}"""
 
@@ -236,7 +236,7 @@ after ❗5❗ minuts💢  This Message will be AutoMaticly Deleted.💢
 
 🏴‍☠️𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>🎃File Name➥⎈⬍⬍<a  href="https://t.me/+HlMV7jE91ghjOTNl">{file_name}</a>⬍⬍ 
+    CAPTION = """<b>🎃File Name➥⎈⬍⬍<a  href="https://t.me/+980k14-DjbVlNjI1">{file_name}</a>⬍⬍ 
 
 ♻️ Size⬍ : ⬍⬍<a href="https://t.me/+wInAv9bWVUlhNjI1">{file_size}</a>⬍⬍ 
 
@@ -335,7 +335,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
  </b>""" 
 
     PROGRESS_BAR = """\n
-╭━━━━❰ Movie Pirates Renaming... ❱━➣
+╭━━━━❰ -⎈⬍-Pirates Hunts-⎈⬍- Renaming... ❱━➣
 ┣⪼ 🗂️ : {1} | {2}
 ┣⪼ ⏳️ : {0}%
 ┣⪼ 🚀 : {3}/s
@@ -457,12 +457,12 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
  
     RESTART_TXT = """
-<b>💥Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ♻ !
+<b>-⬍⎈-💥Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ♻-⎈⬍- !
 
-🌟 Dᴀᴛᴇ : <code>{}</code>
-🔆 Tɪᴍᴇ : <code>{}</code>
-✨ Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
-🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
+-⬍⎈- Dᴀᴛᴇ : <code>{}</code>
+-⬍⎈- Tɪᴍᴇ : <code>{}</code>
+-⬍⎈- Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
+-⬍⎈- Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
     LOGO = """
 
@@ -508,7 +508,7 @@ Hey <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a>
 
  How and what to do
 
- Step 1: Administer this VJ-FILTER-BOT bot to your group
+ Step 1: Administer this FILTER-BOT bot to your group
 
  Step 2: Add your website and API
 
@@ -643,7 +643,7 @@ Also your tutorial will be Added Your Group..."""
 
  કેવી રીતે અને શું કરવું
 
- પગલું 1: તમારા જૂથમાં આ ⎈ Movie Pirate Bot 🏴‍☠ બોટનું સંચાલન કરો
+ પગલું 1: તમારા જૂથમાં આ Pirate Hunts Bot 🏴‍☠ બોટનું સંચાલન કરો
 
  પગલું 2: તમારી વેબસાઇટ અને API ઉમેરો
 
@@ -695,7 +695,7 @@ Also your tutorial will be Added Your Group..."""
 
  কিভাবে এবং কি করতে হবে
 
- ধাপ 1: আপনার গ্রুপে এই ⎈ Movie Pirate Bot 🏴‍☠ বট পরিচালনা করুন
+ ধাপ 1: আপনার গ্রুপে এই ⎈Pirates Hunts Bot 🏴‍☠ বট পরিচালনা করুন
 
  ধাপ 2: আপনার ওয়েবসাইট এবং API যোগ করুন
 
