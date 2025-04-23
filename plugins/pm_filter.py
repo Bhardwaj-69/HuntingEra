@@ -70,7 +70,7 @@ async def give_filter(client, message):
         if total_results == 0:
             return
         else:
-            return await message.reply_text(f"<b>⬍⎈Ahhoyy! Pirate {message.from_user.mention},\n\n⬍⎈{str(total_results)}⎈⬍ Results Found that Content you Searched\n\n🔆 ⬍⎈{search}⎈⬍. \n\n🤞Its only Support Grp♻\n\n🌻Search Here With Correct Spelling🍁\n\n💢- https://t.me/DM_HUB_69</b>")
+            return await message.reply_text(f"<b>⬍⎈Ahhoyy! Pirate {message.from_user.mention},\n\n⚡{str(total_results)}⚡ Results Found that Content you Searched\n\n🔆 ⬍⎈🃏{search}🃏⎈⬍. \n\n🤞Its only Support Grp♻\n\n🌻Search Here With Correct Spelling🍁\n\n💢- https://t.me/DM_HUB_69</b>")
 
 @Client.on_message(filters.private & filters.text & filters.incoming)
 async def pm_text(bot, message):
