@@ -54,7 +54,7 @@ async def give_filter(client, message):
             try:
                 if settings['auto_ffilter']:
                     ai_search = True
-                    reply_msg = await message.reply_text(f"<b><i>⬍⎈Hunting {message.text} 🔍⎈⬍</i></b>")
+                    reply_msg = await message.reply_text(f"<b><i>⬍⎈Hunting  For{message.text} 🔍⎈⬍</i></b>")
                     await auto_filter(client, message.text, message, reply_msg, ai_search)
             except KeyError:
                 grpid = await active_connection(str(message.from_user.id))
@@ -62,7 +62,7 @@ async def give_filter(client, message):
                 settings = await get_settings(message.chat.id)
                 if settings['auto_ffilter']:
                     ai_search = True
-                    reply_msg = await message.reply_text(f"<b><i>⬍⎈Hunting {message.text} 🔍⎈⬍</i></b>")
+                    reply_msg = await message.reply_text(f"<b><i>⬍⎈Hunting For{message.text} 🔍⎈⬍</i></b>")
                     await auto_filter(client, message.text, message, reply_msg, ai_search)
     else: #a better logic to avoid repeated lines of code in auto_filter function
         search = message.text
@@ -70,7 +70,7 @@ async def give_filter(client, message):
         if total_results == 0:
             return
         else:
-            return await message.reply_text(f"<b>⬍⎈Ahhoyy! Pirate {message.from_user.mention},\n\n⎈⬍{str(total_results)}⬍⎈ Results Found that Content you Searched ⎈⬍{search}⬍⎈. \n\n🤞Its only Support Grp♻\n\n🌻Search Here With Correct Spelling🍁- https://t.me/DM_HUB_69</b>")
+            return await message.reply_text(f"<b>⬍⎈Ahhoyy! Pirate {message.from_user.mention},\n\n⬍⎈{str(total_results)}⎈⬍ Results Found that Content you Searched\n\n🔆 ⬍⎈{search}⎈⬍. \n\n🤞Its only Support Grp♻\n\n🌻Search Here With Correct Spelling🍁\n\n💢- https://t.me/DM_HUB_69</b>")
 
 @Client.on_message(filters.private & filters.text & filters.incoming)
 async def pm_text(bot, message):
@@ -80,7 +80,7 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if PM_SEARCH == True:
         ai_search = True
-        reply_msg = await bot.send_message(message.from_user.id, f"<b><i>⬍⎈Hunting {content} 🔍⬍⎈</i></b>", reply_to_message_id=message.id)
+        reply_msg = await bot.send_message(message.from_user.id, f"<b><i>⬍⎈Hunting For {content} 🔍⬍⎈</i></b>", reply_to_message_id=message.id)
         await auto_filter(bot, content, message, reply_msg, ai_search)
     else:
         await message.reply_text(text=f"<b>⬍⎈Ahhoyy! Pirate{user}  ,\n\nIts Support Grp Reqest your Movies Here <a href=https://t.me/DM_HUB_69>⬍⎈Movie GRP⎈⬍</a> or Click Req. Here.</b>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⬍⎈Request Here⎈⬍ ", url=f"https://t.me/DM_HUB_69")]]))
@@ -1043,17 +1043,17 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
         try:
             if settings['max_btn']:
                 btn.append(
-                    [InlineKeyboardButton("⎈ᴘᴀɢᴇ⎈", callback_data="pages"), InlineKeyboardButton(text=f"1/{math.ceil(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="⎈ɴᴇxᴛ ⇛",callback_data=f"next_{req}_{key}_{offset}")]
+                    [InlineKeyboardButton("⎈Page⎈", callback_data="pages"), InlineKeyboardButton(text=f"1/{math.ceil(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="⎈ɴᴇxᴛ ⇛",callback_data=f"next_{req}_{key}_{offset}")]
                 )
     
             else:
                 btn.append(
-                    [InlineKeyboardButton("⎈ᴘᴀɢᴇ⎈", callback_data="pages"), InlineKeyboardButton(text=f"1/{math.ceil(int(total_results)/int(MAX_B_TN))}",callback_data="pages"), InlineKeyboardButton(text="⎈ɴᴇxᴛ ⇛",callback_data=f"next_{req}_{key}_{offset}")]
+                    [InlineKeyboardButton("⎈Page⎈", callback_data="pages"), InlineKeyboardButton(text=f"1/{math.ceil(int(total_results)/int(MAX_B_TN))}",callback_data="pages"), InlineKeyboardButton(text="⎈ɴᴇxᴛ ⇛",callback_data=f"next_{req}_{key}_{offset}")]
                 )
         except KeyError:
             await save_group_settings(query.message.chat.id, 'max_btn', True)
             btn.append(
-                [InlineKeyboardButton("⎈ᴘᴀɢᴇ⎈", callback_data="pages"), InlineKeyboardButton(text=f"1/{math.ceil(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="ɴᴇxᴛ ⇛",callback_data=f"next_{req}_{key}_{offset}")]
+                [InlineKeyboardButton("⎈Page⎈", callback_data="pages"), InlineKeyboardButton(text=f"1/{math.ceil(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="ɴᴇxᴛ ⇛",callback_data=f"next_{req}_{key}_{offset}")]
             )
     else:
         btn.append(
@@ -1785,30 +1785,30 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data.startswith("show_option"):
         ident, from_user = query.data.split("#")
         btn = [[
-                InlineKeyboardButton("Uɴᴀᴠᴀɪʟᴀʙʟᴇ", callback_data=f"unavailable#{from_user}"),
-                InlineKeyboardButton("Uᴘʟᴏᴀᴅᴇᴅ", callback_data=f"uploaded#{from_user}")
+                InlineKeyboardButton("⎈UnAvailable⚠", callback_data=f"unavailable#{from_user}"),
+                InlineKeyboardButton("⎈Uploaded❄", callback_data=f"uploaded#{from_user}")
              ],[
-                InlineKeyboardButton("Aʟʀᴇᴀᴅʏ Aᴠᴀɪʟᴀʙʟᴇ", callback_data=f"already_available#{from_user}")
+                InlineKeyboardButton("⎈Already Available♻", callback_data=f"already_available#{from_user}")
               ]]
         btn2 = [[
-                 InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
+                 InlineKeyboardButton("⎈View Status⚜", url=f"{query.message.link}")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_reply_markup(reply_markup)
-            await query.answer("Hᴇʀᴇ ᴀʀᴇ ᴛʜᴇ ᴏᴘᴛɪᴏɴs !")
+            await query.answer("⎈Ye lo Options🌻")
         else:
             await query.answer("Tu Owner nahi hai BSDK...💀🗿", show_alert=True)
         
-    elif query.data.startswith("unavailable"):
+    elif query.data.startswith("⎈Unavailable❗"):
         ident, from_user = query.data.split("#")
         btn = [[
-                InlineKeyboardButton("⚠️ Uɴᴀᴠᴀɪʟᴀʙʟᴇ ⚠️", callback_data=f"unalert#{from_user}")
+                InlineKeyboardButton("⎈Unavailable❗", callback_data=f"unalert#{from_user}")
               ]]
         btn2 = [[
-                 InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
-                 InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
+                 InlineKeyboardButton('⎈JoinChannel🤞', url=link.invite_link),
+                 InlineKeyboardButton("⎈ViewStatus", url=f"{query.message.link}")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1818,22 +1818,22 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_reply_markup(reply_markup)
             await query.answer("Sᴇᴛ ᴛᴏ Uɴᴀᴠᴀɪʟᴀʙʟᴇ !")
             try:
-                await client.send_message(chat_id=int(from_user), text=f"<b>Hᴇʏ {user.mention}, Sᴏʀʀʏ Yᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ ɪs ᴜɴᴀᴠᴀɪʟᴀʙʟᴇ. Sᴏ ᴏᴜʀ ᴍᴏᴅᴇʀᴀᴛᴏʀs ᴄᴀɴ'ᴛ ᴜᴘʟᴏᴀᴅ ɪᴛ.</b>", reply_markup=InlineKeyboardMarkup(btn2))
+                await client.send_message(chat_id=int(from_user), text=f"<b>⬍⎈Ahhoyy! Pirate{user.mention}, Sorry your  Request is now Unavailbe.\n\n ⎈But Dont Worry\n⎈ Stay Connected for Future🤞</b>", reply_markup=InlineKeyboardMarkup(btn2))
             except UserIsBlocked:
-                await client.send_message(chat_id=int(SUPPORT_CHAT_ID), text=f"<b>Hᴇʏ {user.mention}, Sᴏʀʀʏ Yᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ ɪs ᴜɴᴀᴠᴀɪʟᴀʙʟᴇ. Sᴏ ᴏᴜʀ ᴍᴏᴅᴇʀᴀᴛᴏʀs ᴄᴀɴ'ᴛ ᴜᴘʟᴏᴀᴅ ɪᴛ.\n\nNᴏᴛᴇ: Tʜɪs ᴍᴇssᴀɢᴇ ɪs sᴇɴᴛ ᴛᴏ ᴛʜɪs ɢʀᴏᴜᴘ ʙᴇᴄᴀᴜsᴇ ʏᴏᴜ'ᴠᴇ ʙʟᴏᴄᴋᴇᴅ ᴛʜᴇ ʙᴏᴛ. Tᴏ sᴇɴᴅ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴛᴏ ʏᴏᴜʀ PM, Mᴜsᴛ ᴜɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ.</b>", reply_markup=InlineKeyboardMarkup(btn2))
+                await client.send_message(chat_id=int(SUPPORT_CHAT_ID), text=f"<b>⬍⎈Ahhoyy! Pirate{user.mention}, Sorry your  Request is now Unavailbe.\n\n ⎈But Dont Worry\n⎈ Stay Connected for Future🤞\n\n💢NOTE❗: you have Blocked🚫 the BOT\n\n ⎈UNBLOCK it NOW♻</b>", reply_markup=InlineKeyboardMarkup(btn2))
         else:
             await query.answer("Tu Owner nahi hai BSDK...💀🗿", show_alert=True)
 
     elif query.data.startswith("uploaded"):
         ident, from_user = query.data.split("#")
         btn = [[
-                InlineKeyboardButton("✅ Uᴘʟᴏᴀᴅᴇᴅ ✅", callback_data=f"upalert#{from_user}")
+                InlineKeyboardButton("♻UpLoaded♻", callback_data=f"upalert#{from_user}")
               ]]
         btn2 = [[
-                 InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
-                 InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
+                 InlineKeyboardButton('⎈Join Channel', url=link.invite_link),
+                 InlineKeyboardButton("⎈View Status", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/Movie_Pirates_x")
+                 InlineKeyboardButton("⎈Req.Grp.Link", url="https://t.me/DM_HUB_69")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1841,24 +1841,24 @@ async def cb_handler(client: Client, query: CallbackQuery):
             content = query.message.text
             await query.message.edit_text(f"<b><strike>{content}</strike></b>")
             await query.message.edit_reply_markup(reply_markup)
-            await query.answer("Sᴇᴛ ᴛᴏ Uᴘʟᴏᴀᴅᴇᴅ !")
+            await query.answer("⎈Set to Upload !")
             try:
-                await client.send_message(chat_id=int(from_user), text=f"<b>Hᴇʏ {user.mention}, Yᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ ʜᴀs ʙᴇᴇɴ ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ ᴏᴜʀ ᴍᴏᴅᴇʀᴀᴛᴏʀs. Kɪɴᴅʟʏ sᴇᴀʀᴄʜ ɪɴ ᴏᴜʀ Gʀᴏᴜᴘ.</b>", reply_markup=InlineKeyboardMarkup(btn2))
+                await client.send_message(chat_id=int(from_user), text=f"<b>⬍⎈Ahhoyy! Pirate {user.mention}, ⎈Your Req. is UPloaded 🤞\n\n ⎈ just Go and Search on Grp.</b>", reply_markup=InlineKeyboardMarkup(btn2))
             except UserIsBlocked:
-                await client.send_message(chat_id=int(SUPPORT_CHAT_ID), text=f"<b>Hᴇʏ {user.mention}, Yᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ ʜᴀs ʙᴇᴇɴ ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ ᴏᴜʀ ᴍᴏᴅᴇʀᴀᴛᴏʀs. Kɪɴᴅʟʏ sᴇᴀʀᴄʜ ɪɴ ᴏᴜʀ Gʀᴏᴜᴘ.\n\nNᴏᴛᴇ: Tʜɪs ᴍᴇssᴀɢᴇ ɪs sᴇɴᴛ ᴛᴏ ᴛʜɪs ɢʀᴏᴜᴘ ʙᴇᴄᴀᴜsᴇ ʏᴏᴜ'ᴠᴇ ʙʟᴏᴄᴋᴇᴅ ᴛʜᴇ ʙᴏᴛ. Tᴏ sᴇɴᴅ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴛᴏ ʏᴏᴜʀ PM, Mᴜsᴛ ᴜɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ.</b>", reply_markup=InlineKeyboardMarkup(btn2))
+                await client.send_message(chat_id=int(SUPPORT_CHAT_ID), text=f"<b>Hᴇʏ {user.mention}, ⎈ Your Request is Uploaded 🤞\n\n Serch it noe\n\n💢NOTE❗: you have Blocked🚫 the BOT\n\n ⎈UNBLOCK it NOW♻.</b>", reply_markup=InlineKeyboardMarkup(btn2))
         else:
             await query.answer("Tu Owner nahi hai BSDK...💀🗿", show_alert=True)
 
     elif query.data.startswith("already_available"):
         ident, from_user = query.data.split("#")
         btn = [[
-                InlineKeyboardButton("🟢 Aʟʀᴇᴀᴅʏ Aᴠᴀɪʟᴀʙʟᴇ 🟢", callback_data=f"alalert#{from_user}")
+                InlineKeyboardButton("⎈Already Available", callback_data=f"alalert#{from_user}")
               ]]
         btn2 = [[
-                 InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
-                 InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
+                 InlineKeyboardButton('⎈JoinChannel', url=link.invite_link),
+                 InlineKeyboardButton("⎈ViewStatus", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/DM_HUB_69")
+                 InlineKeyboardButton("⎈Req.Grp.Link", url="https://t.me/DM_HUB_69")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1866,11 +1866,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             content = query.message.text
             await query.message.edit_text(f"<b><strike>{content}</strike></b>")
             await query.message.edit_reply_markup(reply_markup)
-            await query.answer("Sᴇᴛ ᴛᴏ Aʟʀᴇᴀᴅʏ Aᴠᴀɪʟᴀʙʟᴇ !")
+            await query.answer("Set to Alredy Avilable")
             try:
-                await client.send_message(chat_id=int(from_user), text=f"<b>Hᴇʏ {user.mention}, Yᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ ɪs ᴀʟʀᴇᴀᴅʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴏᴜʀ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ. Kɪɴᴅʟʏ sᴇᴀʀᴄʜ ɪɴ ᴏᴜʀ Gʀᴏᴜᴘ.</b>", reply_markup=InlineKeyboardMarkup(btn2))
+                await client.send_message(chat_id=int(from_user), text=f"<b>⬍⎈Ahhoyy! Pirate{user.mention},⎈Your  Req. is Alredy Available🤞\n\n⎈ Just Search it on Grp</b>", reply_markup=InlineKeyboardMarkup(btn2))
             except UserIsBlocked:
-                await client.send_message(chat_id=int(SUPPORT_CHAT_ID), text=f"<b>Hᴇʏ {user.mention}, Yᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ ɪs ᴀʟʀᴇᴀᴅʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴏᴜʀ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ. Kɪɴᴅʟʏ sᴇᴀʀᴄʜ ɪɴ ᴏᴜʀ Gʀᴏᴜᴘ.\n\nNᴏᴛᴇ: Tʜɪs ᴍᴇssᴀɢᴇ ɪs sᴇɴᴛ ᴛᴏ ᴛʜɪs ɢʀᴏᴜᴘ ʙᴇᴄᴀᴜsᴇ ʏᴏᴜ'ᴠᴇ ʙʟᴏᴄᴋᴇᴅ ᴛʜᴇ ʙᴏᴛ. Tᴏ sᴇɴᴅ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴛᴏ ʏᴏᴜʀ PM, Mᴜsᴛ ᴜɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ.</b>", reply_markup=InlineKeyboardMarkup(btn2))
+                await client.send_message(chat_id=int(SUPPORT_CHAT_ID), text=f"<b>⬍⎈Ahhoyy! Pirate{user.mention}, ⎈Your req. is Alredy Available🤞\n\n ⎈Just Search.\n\n💢NOTE❗: you have Blocked🚫 the BOT\n\n ⎈UNBLOCK it NOW♻</b>", reply_markup=InlineKeyboardMarkup(btn2))
         else:
             await query.answer("Tu Owner nahi hai BSDK...💀🗿", show_alert=True)
 
@@ -1878,7 +1878,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ident, from_user = query.data.split("#")
         if int(query.from_user.id) == int(from_user):
             user = await client.get_users(from_user)
-            await query.answer(f"Hᴇʏ {user.first_name}, Yᴏᴜʀ Rᴇᴏ̨ᴜᴇsᴛ ɪs Aʟʀᴇᴀᴅʏ Aᴠᴀɪʟᴀʙʟᴇ !", show_alert=True)
+            await query.answer(f"⬍⎈Ahhoyy! Pirate {user.first_name}, ⎈Alredy Available♻!", show_alert=True)
         else:
             await query.answer("Tu Owner nahi hai BSDK...💀🗿", show_alert=True)
 
@@ -1886,7 +1886,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ident, from_user = query.data.split("#")
         if int(query.from_user.id) == int(from_user):
             user = await client.get_users(from_user)
-            await query.answer(f"Hᴇʏ {user.first_name}, Yᴏᴜʀ Rᴇᴏ̨ᴜᴇsᴛ ɪs Uᴘʟᴏᴀᴅᴇᴅ !", show_alert=True)
+            await query.answer(f"⬍⎈Ahhoyy! Pirate {user.first_name}, Req. Uploaded !", show_alert=True)
         else:
             await query.answer("Tu Owner nahi hai BSDK...💀🗿", show_alert=True)
         
@@ -1894,7 +1894,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ident, from_user = query.data.split("#")
         if int(query.from_user.id) == int(from_user):
             user = await client.get_users(from_user)
-            await query.answer(f"Hᴇʏ {user.first_name}, Yᴏᴜʀ Rᴇᴏ̨ᴜᴇsᴛ ɪs Uɴᴀᴠᴀɪʟᴀʙʟᴇ !", show_alert=True)
+            await query.answer(f"⬍⎈Ahhoyy! Pirate {user.first_name},Sorry your  Request is now Unavailbe.\n\n ⎈But Dont Worry\n⎈ Stay Connected for Future🤞", show_alert=True)
         else:
             await query.answer("Tu Owner nahi hai BSDK...💀🗿", show_alert=True)
 
@@ -2867,9 +2867,9 @@ async def auto_filter(client, name, msg, reply_msg, ai_search, spoll=False):
                 cap += f"<b>\n📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n</a></b>"
     else:
         if settings["button"]:
-            cap = f"<b>⬍⎈ {search} ⎈⬍\n\n⬍⎈ {message.from_user.mention} ⎈⬍\n\n⬍⎈ {remaining_seconds} sᴇᴄᴏɴᴅs ⎈⬍\n\n⬍⎈ Powered By 🏴‍☠️: <blockquote>@LarvaLinks 💀</blockquote>\n\n❗Msg DeleTing in ⎈5 Mins⎈\n\n</b>"
+            cap = f"<b>⬍⎈ {search} ⎈⬍\n\n⬍⎈ {message.from_user.mention} ⎈⬍\n\n⬍⎈ {remaining_seconds} sᴇᴄᴏɴᴅs ⎈⬍\n\n⬍⎈ Powered By 🏴‍☠️: <blockquote>@LarvaLinks 💀</blockquote>\n\n❗Msg Deleting in ⎈❗5 Mins❗⎈\n\n</b>"
         else:
-            cap = f"<b>⬍⎈ {search} ⎈⬍\n\n⬍⎈ {message.from_user.mention} ⎈⬍\n\n⬍⎈ {remaining_seconds} sᴇᴄᴏɴᴅs ⎈⬍\n\n⬍⎈ Powered By 🏴‍☠️: <blockquote>@LarvaLinks 💀</blockquote>\n\n❗Msg DeleTing in ⎈5 Mins⎈\n\n</b>\n\n</b>"
+            cap = f"<b>⬍⎈ {search} ⎈⬍\n\n⬍⎈ {message.from_user.mention} ⎈⬍\n\n⬍⎈ {remaining_seconds} sᴇᴄᴏɴᴅs ⎈⬍\n\n⬍⎈ Powered By 🏴‍☠️: <blockquote>@LarvaLinks 💀</blockquote>\n\n❗Msg Deleting in ⎈❗5 Mins❗⎈\n\n</b>\n\n</b>"
             cap+="<b><u>🍿 Your Movie Files 👇</u></b>\n\n"
             for file in files:
                 cap += f"<b>📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
