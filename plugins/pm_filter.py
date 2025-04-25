@@ -70,7 +70,7 @@ async def give_filter(client, message):
         if total_results == 0:
             return
         else:
-            return await message.reply_text(f"<b>⬍⎈Ahhoyy! Pirate {message.from_user.mention},\n\n⚡{str(total_results)}⚡ Results Found that Content you Searched\n\n🔆 ⬍⎈🃏{search}🃏⎈⬍. \n\n🤞Its only Support Grp♻\n\n🌻Search Here With Correct Spelling🍁\n\n💢- https://t.me/DM_HUB_69</b>")
+            return await message.reply_text(f"<b>⬍⎈Ahhoyy! Pirate {message.from_user.mention}🧤,\n\n⚡{str(total_results)}⚡ Results Found for 👇\n\n ⬍⎈🧤{search}🧤⎈⬍. \n\n🔻Its only Support Grp🧬\n\n🥽Search Here With Correct Spelling🧪\n\n💢- https://t.me/DM_HUB_69</b>")
 
 @Client.on_message(filters.private & filters.text & filters.incoming)
 async def pm_text(bot, message):
@@ -2867,9 +2867,9 @@ async def auto_filter(client, name, msg, reply_msg, ai_search, spoll=False):
                 cap += f"<b>\n📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n</a></b>"
     else:
         if settings["button"]:
-            cap = f"<b>⬍⎈ {search} ⎈⬍\n\n⬍⎈ {message.from_user.mention} ⎈⬍\n\n⬍⎈ {remaining_seconds} sᴇᴄᴏɴᴅs ⎈⬍\n\n⬍⎈ Powered By 🏴‍☠️: <blockquote>@LarvaLinks 💀</blockquote>\n\n❗Msg Deleting in ⎈❗5 Mins❗⎈\n\n</b>"
+            cap = f"<b>⬍⎈ {search} ⎈⬍\n\n⬍⎈ {message.from_user.mention} ⎈⬍\n\n⬍⎈ {remaining_seconds} sᴇᴄᴏɴᴅs ⎈⬍\n\n⬍⎈ Powered By 🧤: <blockquote>🧤 @LarvaLinks 💀</blockquote>\n\n❗Msg Deleting in ⎈❗5 Mins❗⎈\n\n</b>"
         else:
-            cap = f"<b>⬍⎈ {search} ⎈⬍\n\n⬍⎈ {message.from_user.mention} ⎈⬍\n\n⬍⎈ {remaining_seconds} sᴇᴄᴏɴᴅs ⎈⬍\n\n⬍⎈ Powered By 🏴‍☠️: <blockquote>@LarvaLinks 💀</blockquote>\n\n❗Msg Deleting in ⎈❗5 Mins❗⎈\n\n</b>\n\n</b>"
+            cap = f"<b>⬍⎈ {search} ⎈⬍\n\n⬍⎈ {message.from_user.mention} ⎈⬍\n\n⬍⎈ {remaining_seconds} sᴇᴄᴏɴᴅs ⎈⬍\n\n⬍⎈ Powered By 🧤: <blockquote>🧤 @LarvaLinks 💀</blockquote>\n\n❗Msg Deleting in ⎈❗5 Mins❗⎈\n\n</b>\n\n</b>"
             cap+="<b><u>🍿 Your Movie Files 👇</u></b>\n\n"
             for file in files:
                 cap += f"<b>📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
