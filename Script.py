@@ -4,13 +4,13 @@
 
 
 class script(object):
-    START_TXT = """<b><blockquote>⎈Ahhoy! Pirate⬍{}🎃,
-━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━    
+    START_TXT = """<b><blockquote>⎈🧤Ahhoy! Pirate⬍{}🎃,
+━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━    
 ⎈ Myself  <a href=https://t.me/{}>{}</a></blockquote>
 ━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━
-<blockquote>💀Now you are in ⎈  ⬍𝐏𝐢𝐫𝐚𝐭𝐞𝐬 𝐇𝐮𝐧𝐭𝐢𝐧𝐠 𝐙𝐨𝐧𝐞⬍,⚓</blockquote>
+<blockquote>💀Now you are in ⎈  ⬍𝐏𝐢𝐫𝐚𝐭𝐞𝐬 𝐇𝐮𝐧𝐭𝐢𝐧𝐠 𝐙𝐨𝐧𝐞⬍,🧤</blockquote>
 ━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━
-<blockquote>🔆𝙅𝙪𝙨𝙩 𝙨𝙚𝙣𝙙  ⬍⎈𝙼𝚘𝚟𝚒𝚎𝚜 & 𝚂𝚎𝚛𝚒𝚎𝚜⎈⬍  𝙉𝙖𝙢𝙚</blockquote></b>"""
+<blockquote>🧤𝙅𝙪𝙨𝙩 𝙨𝙚𝙣𝙙  ⬍⎈𝙼𝚘𝚟𝚒𝚎𝚜 & 𝚂𝚎𝚛𝚒𝚎𝚜⎈⬍  𝙉𝙖𝙢𝙚</blockquote></b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
@@ -164,34 +164,34 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 -⬍⎈-Used Storage-⎈⬍-: <code>{} MB</code>
 -⬍⎈-Free Storage-⎈⬍-: <code>{} MB</code></b>"""
 
-    LOG_TEXT_G = """-⬍⎈-#NewGroup-⎈⬍-
+    LOG_TEXT_G = """-⬍⎈-🧤NewGroup-⎈⬍-
 ⎈Group⎈ = {}(<code>{}</code>)
-Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs🏴‍☠⚡ = <code>{}</code>
+🧤Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs⚡ = <code>{}</code>
 ⎈Aᴅᴅᴇᴅ Bʏ🏴‍☠️ - {}"""
 
-    LOG_TEXT_P = """-⬍⎈-#NewUser⚡-⎈⬍-
+    LOG_TEXT_P = """-⬍⎈-🧤NewUser⚡-⎈⬍-
 ⎈ID - <code>{}</code>
 ⎈Nᴀᴍᴇ - {}"""
 
-    ALRT_TXT = """ʜᴇʟʟᴏ🎃 {},
+    ALRT_TXT = """🧤Ahhoyy! Pirate🎃 {},
 ⎈Dont Pirate on Others Request❗,
-⚓Be a Pirate⎈ nd Request Your Loot💀"""
+🧤Be a Pirate⎈ nd Request Your Loot💀"""
 
     OLD_ALRT_TXT = """ʜᴇʏ 🏴‍☠️{},
 ❗You are Using Old Loot😒, 
 ⎈Please Send Request Again.⚓."""
 
-    CUDNT_FND = """⎈I Coulden't Find🙄 anything Like {}
+    CUDNT_FND = """⎈Huhh! I Coulden't Find🙄 anything Like {}
 Did you mean This⎈"""
 
-    I_CUDNT = """<b>⎈Sorry No Loot Found for this in the Whole Piracy Sea🏴‍☠️.🍁 {} 😕
+    I_CUDNT = """<b>⎈Sorry No Loot Found for this in the Whole Piracy Sea🏴‍☠️.🧤 {} 😕
 
-⎈do Google and give me Adject Name of you Movie🕷
+⎈do🧤 Google and give me Adject Name of you Movie🕷
 
-♠send Movies Like This.!🔆
+🧤send Movies Like This.!🔆
 🎃Ex.::-- : Animal or Animal 2023 or Animal Hin.  🕸
 
-♣send WebSeries Like This.!💢
+🧤send WebSeries Like This.!💢
 🎃Ex.::--: From S01 or From S01E04 or Stranger Things S03E06
 
 ⭕🚫 Dont ➠ ':(!,./) 0nly name of Content that you want.🗝
@@ -200,16 +200,16 @@ Did you mean This⎈"""
 
 🎃we will Upload it As Soon as Possible🕷</b></blockquote>"""
 
-    I_CUD_NT = """❗⎈Sorry No Loot Found for this in the Whole Piracy Sea🏴‍☠️.🍁 {}.
+    I_CUD_NT = """❗⎈Sorry No Loot Found for this in the Whole Piracy Sea🏴‍☠️.🧤 {}.
 ⚡Check Spalling or Requst to ⎈Captain Jack Sparrow🕷"""
 
     MVE_NT_FND = """❗Movie Not Found in Piracy World💢..."""
 
     TOP_ALRT_MSG = """❗Checking for Movie in Piracy World .♻..."""
 
-    MELCOW_ENG = """<b>⎈Ahhoyy! Pirate {} 🔆, &
+    MELCOW_ENG = """<b>⎈Ahhoyy! Pirate {} 🧤, &
 
-           ⎈🏴‍☠Your Welcome to.🎃 {}  𝖺𝗌 𝖺 𝗇𝖾𝗐 PIRATE.⎈⚓️</b>"""
+           ⎈🏴‍☠Your Welcome to.🎃 {}  𝖺𝗌 𝖺 𝗇𝖾𝗐 PIRATE.⎈⚓🧤</b>"""
 
     SHORTLINK_INFO = """
 
@@ -228,19 +228,19 @@ after ❗5❗ minuts💢  This Message will be AutoMaticly Deleted.💢
 🫣 ♻For Movie Join First🌻 Then Click On Try Again Button 😎"""
 
     NORSLTS = """ 
-⎈-★-#𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀-★-⎈
+⎈-★-❗𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀-★-⎈
 
 ⚓𝗜𝗗 <b>: {}</b>
 
 🎃𝗡𝗮𝗺𝗲 <b>: {}</b>
 
-🏴‍☠️𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
+🧤𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>🎃File Name➥⎈⬍⬍<a  href="https://t.me/+980k14-DjbVlNjI1">{file_name}</a>⬍⬍ 
+    CAPTION = """<b>🎃File Name➥⬍⬍🧤<a  href="https://t.me/+980k14-DjbVlNjI1">{file_name}</a>🧤⬍⬍ 
 
 ♻️ Size⬍ : ⬍⬍<a href="https://t.me/+wInAv9bWVUlhNjI1">{file_size}</a>⬍⬍ 
 
-<blockquote>⬍⎈Join us🍁:--⬍⬍ @LarvaLinks 🏝⬍⬍</blockquote></b>"""
+<blockquote>⬍⎈Join us🧤:--⬍⬍ @LarvaLinks 🏝⬍⬍</blockquote></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
@@ -457,7 +457,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
  
     RESTART_TXT = """
-<b>-⬍⎈-💥Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ♻-⎈⬍- !
+<b>-⬍⎈-💥Bot Restared🧤-⎈⬍- !
 
 -⬍⎈- Dᴀᴛᴇ : <code>{}</code>
 -⬍⎈- Tɪᴍᴇ : <code>{}</code>
@@ -466,7 +466,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
     LOGO = """
 
-⭕💢Enjoy Your Day Pirate.💀"""
+🧤💢Enjoy Your Day Pirate.💀"""
  
     TAMIL_INFO = """
 ஏய் <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a> 
@@ -711,7 +711,7 @@ Also your tutorial will be Added Your Group..."""
 
 
     DEVELOPER_TXT = """
-special Thanks To ❤️ Developers -
+special Thanks To  🧤Developers -
 
 -Dev 1 [Owner of this bot ]<a href='https://t.me/BhardwajBhavit'>⬍Captain Jack⬍</a>
 
