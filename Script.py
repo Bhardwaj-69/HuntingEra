@@ -4,11 +4,11 @@
 
 
 class script(object):
-    START_TXT = """<b><blockquote>⎈🧤Ahhoy! Pirate⬍{}🎃,
+    START_TXT = """<b><blockquote>🧤⎈Ahhoy! Pirate⬍{}🎃,
 ━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━    
 ⎈ Myself  <a href=https://t.me/{}>{}</a></blockquote>
 ━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━
-<blockquote>💀Now you are in ⎈  ⬍𝐏𝐢𝐫𝐚𝐭𝐞𝐬 𝐇𝐮𝐧𝐭𝐢𝐧𝐠 𝐙𝐨𝐧𝐞⬍,🧤</blockquote>
+<blockquote>🧤Now you are in ⎈  ⬍𝐏𝐢𝐫𝐚𝐭𝐞𝐬 𝐇𝐮𝐧𝐭𝐢𝐧𝐠 𝐙𝐨𝐧𝐞⬍,💀</blockquote>
 ━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━
 <blockquote>🧤𝙅𝙪𝙨𝙩 𝙨𝙚𝙣𝙙  ⬍⎈𝙼𝚘𝚟𝚒𝚎𝚜 & 𝚂𝚎𝚛𝚒𝚎𝚜⎈⬍  𝙉𝙖𝙢𝙚</blockquote></b>"""
 
@@ -184,21 +184,21 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     CUDNT_FND = """⎈Huhh! I Coulden't Find🙄 anything Like {}
 Did you mean This⎈"""
 
-    I_CUDNT = """<b>⎈Sorry No Loot Found for this in the Whole Piracy Sea🏴‍☠️.🧤 {} 😕
+    I_CUDNT = """<b>🧤⎈Sorry No Loot Found for this in the Whole Piracy Sea🏴‍☠️.\n🧤 {} 🧤
 
-⎈do🧤 Google and give me Adject Name of you Movie🕷
+🧤⎈do Google and give me Adject Name of you Movie📢
 
 🧤send Movies Like This.!🔆
-🎃Ex.::-- : Animal or Animal 2023 or Animal Hin.  🕸
+🧤Ex.::-- : Animal or Animal 2023 or Animal Hin.🥽  
 
 🧤send WebSeries Like This.!💢
-🎃Ex.::--: From S01 or From S01E04 or Stranger Things S03E06
+🧤Ex.::--: From S01 or From S01E04 or Stranger Things S03E06
 
 ⭕🚫 Dont ➠ ':(!,./) 0nly name of Content that you want.🗝
 
 <blockquote>❗💢If you Still not Find it Then click billow👇 🔆⎈𝙍𝙚𝙦𝙪𝙨𝙩 𝙩𝙤 𝘾𝙖𝙥𝙩𝙖𝙞𝙣 𝙎𝙥𝙖𝙧𝙧𝙤𝙬⚓️🏴‍☠️ 
 
-🎃we will Upload it As Soon as Possible🕷</b></blockquote>"""
+🧤we will Upload it As Soon as Possible🕷</b></blockquote>"""
 
     I_CUD_NT = """❗⎈Sorry No Loot Found for this in the Whole Piracy Sea🏴‍☠️.🧤 {}.
 ⚡Check Spalling or Requst to ⎈Captain Jack Sparrow🕷"""
@@ -209,7 +209,7 @@ Did you mean This⎈"""
 
     MELCOW_ENG = """<b>⎈Ahhoyy! Pirate {} 🧤, &
 
-           ⎈🏴‍☠Your Welcome to.🎃 {}  𝖺𝗌 𝖺 𝗇𝖾𝗐 PIRATE.⎈⚓🧤</b>"""
+           ⎈🥽Your Welcome to.🎃 {}  𝖺𝗌 𝖺 𝗇𝖾𝗐 PIRATE.⎈⚓🧤</b>"""
 
     SHORTLINK_INFO = """
 
@@ -236,9 +236,9 @@ after ❗5❗ minuts💢  This Message will be AutoMaticly Deleted.💢
 
 🧤𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>🎃File Name➥⬍⬍🧤<a  href="https://t.me/+980k14-DjbVlNjI1">{file_name}</a>🧤⬍⬍ 
+    CAPTION = """<b>🎃File Name➥⬍⬍🧤<a  href="https://t.me/PiratesHunts">{file_name}</a>🧤⬍⬍ 
 
-♻️ Size⬍ : ⬍⬍<a href="https://t.me/+wInAv9bWVUlhNjI1">{file_size}</a>⬍⬍ 
+🧤 Size⬍ : ⬍⬍<a href="https://t.me/+wInAv9bWVUlhNjI1">{file_size}</a>⬍⬍ 
 
 <blockquote>⬍⎈Join us🧤:--⬍⬍ @LarvaLinks 🏝⬍⬍</blockquote></b>"""
 
