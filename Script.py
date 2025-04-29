@@ -236,7 +236,7 @@ after ❗5❗ minuts💢  This Message will be AutoMaticly Deleted.💢
 
 ⚓𝗜𝗗 <b>: {}</b>
 
-🎃𝗡𝗮𝗺𝗲 <b>: {}</b>
+🎃𝗡𝗮𝗺𝗲 <b>: <a href="tg://openmessage?user_id={}"</a></b>
 
 🧤𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
