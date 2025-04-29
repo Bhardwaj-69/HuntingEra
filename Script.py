@@ -175,7 +175,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     LOG_TEXT_P = """-⬍⎈-🧤NewUser⚡-⎈⬍-
 -⬍⎈ID - <code>{}</code>
 -⬍⎈Nᴀᴍᴇ - {}
--⬍⎈Telegram - <a href="tg://user?id={}">{}</a>"""
+-⬍⎈Telegram - <a href="tg://openmessage?user_id={}"</a>"""
 
     ALRT_TXT = """🧤Ahhoyy! Pirate🎃 {},
 ⎈Dont Pirate on Others Request❗,
