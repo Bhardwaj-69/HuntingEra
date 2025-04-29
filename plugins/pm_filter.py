@@ -54,7 +54,7 @@ async def give_filter(client, message):
             try:
                 if settings['auto_ffilter']:
                     ai_search = True
-                    reply_msg = await message.reply_text(f"<b><i>⬍⎈Hunting  For{message.text} 🔍⎈⬍</i></b>")
+                    reply_msg = await message.reply_text(f"<b><i>⬍⎈Hunting  For -⬍⎈ {message.text} 🔍⎈⬍</i></b>")
                     await auto_filter(client, message.text, message, reply_msg, ai_search)
             except KeyError:
                 grpid = await active_connection(str(message.from_user.id))
@@ -62,7 +62,7 @@ async def give_filter(client, message):
                 settings = await get_settings(message.chat.id)
                 if settings['auto_ffilter']:
                     ai_search = True
-                    reply_msg = await message.reply_text(f"<b><i>⬍⎈Hunting For{message.text} 🔍⎈⬍</i></b>")
+                    reply_msg = await message.reply_text(f"<b><i>⬍⎈Hunting For -⬍⎈ {message.text} 🔍⎈⬍</i></b>")
                     await auto_filter(client, message.text, message, reply_msg, ai_search)
     else: #a better logic to avoid repeated lines of code in auto_filter function
         search = message.text
@@ -70,7 +70,7 @@ async def give_filter(client, message):
         if total_results == 0:
             return
         else:
-            return await message.reply_text(f"<b>⬍⎈Ahhoyy! Pirate {message.from_user.mention}🧤,\n\n⚡{str(total_results)}⚡ Results Found for 👇\n\n ⬍⎈🧤{search}🧤⎈⬍. \n\n🔻Its only Support Grp🧬\n\n🥽Search Here With Correct Spelling🧪\n\n💢- https://t.me/DM_HUB_69</b>")
+            return await message.reply_text(f"<b>⬍⎈Ahhoyy! Pirate {message.from_user.mention}🧤,\n\n🧪{str(total_results)}🧪 Results Found for 👇\n\n ⬍⎈🧤{search}🧤⎈⬍. \n\n🔻Its only Support Grp🧬\n\n🥽Search Here With Correct Spelling🧪\n\n💢- https://t.me/DM_HUB_69</b>")
 
 @Client.on_message(filters.private & filters.text & filters.incoming)
 async def pm_text(bot, message):
@@ -80,7 +80,7 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if PM_SEARCH == True:
         ai_search = True
-        reply_msg = await bot.send_message(message.from_user.id, f"<b><i>⬍⎈Hunting For {content} 🔍⬍⎈</i></b>", reply_to_message_id=message.id)
+        reply_msg = await bot.send_message(message.from_user.id, f"<b><i>⬍⎈Hunting For -⬍⎈ {content} 🔍⬍⎈</i></b>", reply_to_message_id=message.id)
         await auto_filter(bot, content, message, reply_msg, ai_search)
     else:
         await message.reply_text(text=f"<b>⬍⎈Ahhoyy! Pirate{user}  ,\n\nIts Support Grp Reqest your Movies Here <a href=https://t.me/DM_HUB_69>⬍⎈Movie GRP⎈⬍</a> or Click Req. Here.</b>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⬍⎈Request Here⎈⬍ ", url=f"https://t.me/DM_HUB_69")]]))
