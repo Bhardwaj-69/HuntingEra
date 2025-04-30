@@ -159,20 +159,20 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /deletefiles - <code>Tᴏ ᴅᴇʟᴇᴛᴇ CᴀᴍRɪᴘ ᴀɴᴅ PʀᴇDVD Fɪʟᴇs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>"""
 
     STATUS_TXT = """<b>🧪⬍⎈-Total Files-⎈⬍-: <code>{}</code>
--⬍⎈-Total Users-⎈⬍-: <code>{}</code>
--⬍⎈-Total Chats-⎈⬍-: <code>{}</code>
--⬍⎈-Used Storage-⎈⬍-: <code>{} MB</code>
--⬍⎈-Free Storage-⎈⬍-: <code>{} MB</code></b>"""
+-♻⬍⎈-Total Users-⎈⬍-: <code>{}</code>
+-👻⬍⎈-Total Chats-⎈⬍-: <code>{}</code>
+-🏝⬍⎈-Used Storage-⎈⬍-: <code>{} MB</code>
+-🏴‍☠️⬍⎈-Free Storage-⎈⬍-: <code>{} MB</code></b>"""
 
-    LOG_TEXT_G = """<b>-⬍⎈-🧤NewGroup-⎈⬍-
--⬍⎈Group name - {}
--⬍⎈Id - <code>{}</code>
--⬍⎈Group username - @{}
--⬍⎈Group link - {}
--⬍⎈Total members - <code>{}</code>
--⬍⎈By User - {}</b>"""
+    LOG_TEXT_G = """<b>-⬍⎈-🧤NewGroupLoot-⎈⬍-
+-⭕⬍⎈Group name - {}
+-🌻⬍⎈Id - <code>{}</code>
+-🔻⬍⎈Group username - @{}
+-🏝⬍⎈Group link - {}
+-❗⬍⎈Total members - <code>{}</code>
+-🔆⬍⎈By Pirate - {}</b>"""
 
-    LOG_TEXT_P = """<b>-⬍⎈-🧤NewUser⚡-⎈⬍-
+    LOG_TEXT_P = """<b>-⬍⎈-🧤NewPirate💀⚡-⎈⬍-
 -⬍⎈ID - <code>{}</code>
 -⬍⎈Nᴀᴍᴇ - {}
 -⬍⎈Telegram - <a href="tg://openmessage?user_id={}"</a></b>"""
@@ -181,7 +181,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 ⎈Dont Pirate on Others Request❗,
 🧤Be a Pirate⎈ nd Request Your Loot💀"""
 
-    OLD_ALRT_TXT = """ʜᴇʏ 🏴‍☠️{},
+    OLD_ALRT_TXT = """Ahhoyy! Pirate 🏴‍☠️{},
 ❗You are Using Old Loot😒, 
 ⎈Please Send Request Again.⚓."""
 
@@ -232,11 +232,11 @@ after ❗5❗ minuts💢  This Message will be AutoMaticly Deleted.💢
 🫣 ♻For Movie Join First🌻 Then Click On Try Again Button 😎"""
 
     NORSLTS = """ 
-⎈❗❗𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀❗❗⎈
+⎈❗‼❗𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀❗‼❗⎈
 
-🧬𝗜𝗗 <b>: {}</b>
+⚜𝗜𝗗 <b>: {}</b>
 
-🎃𝗡𝗮𝗺𝗲 <b>: {}</b>
+🔻𝗡𝗮𝗺𝗲 <b>: {}</b>
 
 🧤𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
@@ -463,12 +463,12 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
  
     RESTART_TXT = """
-<b>-⬍⎈-💥Bot Restared🧤-⎈⬍- !
+<b>-⬍⎈-💥💢Bot Restared💢🧤-⎈⬍- !
 
--⬍⎈- Dᴀᴛᴇ : <code>{}</code>
--⬍⎈- Tɪᴍᴇ : <code>{}</code>
--⬍⎈- Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
--⬍⎈- Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
+-🧬⬍⎈- Dᴀᴛᴇ : <code>{}</code>
+-🧪⬍⎈- Tɪᴍᴇ : <code>{}</code>
+-🧬⬍⎈- Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
+-🧪⬍⎈- Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
     LOGO = """
 
