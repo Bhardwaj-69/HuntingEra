@@ -164,18 +164,18 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 -⬍⎈-Used Storage-⎈⬍-: <code>{} MB</code>
 -⬍⎈-Free Storage-⎈⬍-: <code>{} MB</code></b>"""
 
-    LOG_TEXT_G = """-⬍⎈-🧤NewGroup-⎈⬍-
+    LOG_TEXT_G = """<b>-⬍⎈-🧤NewGroup-⎈⬍-
 -⬍⎈Group name - {}
 -⬍⎈Id - <code>{}</code>
 -⬍⎈Group username - @{}
 -⬍⎈Group link - {}
 -⬍⎈Total members - <code>{}</code>
--⬍⎈By User - {}"""
+-⬍⎈By User - {}</b>"""
 
-    LOG_TEXT_P = """-⬍⎈-🧤NewUser⚡-⎈⬍-
+    LOG_TEXT_P = """<b>-⬍⎈-🧤NewUser⚡-⎈⬍-
 -⬍⎈ID - <code>{}</code>
 -⬍⎈Nᴀᴍᴇ - {}
--⬍⎈Telegram - <a href="tg://openmessage?user_id={}"</a>"""
+-⬍⎈Telegram - <a href="tg://openmessage?user_id={}"</a></b>"""
 
     ALRT_TXT = """🧤Ahhoyy! Pirate🎃 {},
 ⎈Dont Pirate on Others Request❗,
@@ -232,15 +232,17 @@ after ❗5❗ minuts💢  This Message will be AutoMaticly Deleted.💢
 🫣 ♻For Movie Join First🌻 Then Click On Try Again Button 😎"""
 
     NORSLTS = """ 
-⎈-★-❗𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀-★-⎈
+⎈❗❗𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀❗❗⎈
 
-⚓𝗜𝗗 <b>: {}</b>
+🧬𝗜𝗗 <b>: {}</b>
 
 🎃𝗡𝗮𝗺𝗲 <b>: {}</b>
 
 🧤𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """<b>🎃File Name➥⬍⬍🧤<a  href="https://t.me/+ltV0cofQ2BI0YWNl">{file_name}</a>🧤⬍⬍ 
+
+<blockquote>💢StartMe: @PiratesHunts_Bot</blockquote></b>
 
 🧤 Size⬍ : ⬍⬍<a href="https://t.me/+wInAv9bWVUlhNjI1">{file_size}</a>⬍⬍ 
 
