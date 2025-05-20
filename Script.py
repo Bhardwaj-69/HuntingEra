@@ -244,7 +244,7 @@ after ❗5❗ minuts💢  This Message will be AutoMaticly Deleted.💢
 
 <blockquote>💢StartMe: @PiratesHunts_Bot</blockquote></b>
 
-🧤 Size⬍ : ⬍⬍<a href="https://t.me/+wInAv9bWVUlhNjI1">{file_size}</a>⬍⬍ 
+<b>🧤 Size⬍ : ⬍⬍<a href="https://t.me/+wInAv9bWVUlhNjI1">{file_size}</a>⬍⬍ 
 
 <blockquote>⬍⎈Join us🧤:--⬍⬍ @LarvaLinks 🏝⬍⬍</blockquote></b>"""
 
