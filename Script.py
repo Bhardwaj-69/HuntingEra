@@ -242,7 +242,7 @@ after ❗5❗ minuts💢  This Message will be AutoMaticly Deleted.💢
 
     CAPTION = """<b>🎃File Name➥⬍⬍🧤<a  href="https://t.me/+ltV0cofQ2BI0YWNl">{file_name}</a>🧤⬍⬍ 
 
-<blockquote>💢StartMe: @PiratesHunts_Bot</blockquote></b>
+<blockquote>💢StartMe: @Pirates_Hunts_Bot</blockquote></b>
 
 <b>🧤 Size⬍ : ⬍⬍<a href="https://t.me/+wInAv9bWVUlhNjI1">{file_size}</a>⬍⬍ 
 
