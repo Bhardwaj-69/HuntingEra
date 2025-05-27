@@ -33,7 +33,7 @@ async def start(client, message):
                 InlineKeyboardButton('⬍⎈FreeDataBase⎈⬍', url='https://t.me/+Y_QdbkhM2OFmNmZl'),
                 InlineKeyboardButton('⬍⎈Movie Grp⎈⬍', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('⎈⬍🔞🥵⬍⎈', url='https://t.me/+xIYS8qn_Nhs2Y2E1')
+                InlineKeyboardButton('⎈⬍🔞🥵⬍⎈', url='https://t.me/+6nFFXikz4ZkxZTQ1')
             ],[
                 InlineKeyboardButton('🧤⬍Update Channel⬍🧤', url=CHNL_LNK)
             ]]
@@ -56,7 +56,7 @@ async def start(client, message):
                 InlineKeyboardButton('⬍⎈FreeDataBase⎈⬍', url='https://t.me/+Y_QdbkhM2OFmNmZl'),
                 InlineKeyboardButton('⬍⎈Movie Grp⎈⬍', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('⎈⬍🔞🥵⬍⎈', url='https://t.me/+xIYS8qn_Nhs2Y2E1')
+                InlineKeyboardButton('⎈⬍🔞🥵⬍⎈', url='https://t.me/+6nFFXikz4ZkxZTQ1')
             ],[
                 InlineKeyboardButton('🧤⬍Update Channel⬍🧤', url=CHNL_LNK)
             ]]
@@ -67,7 +67,7 @@ async def start(client, message):
                 InlineKeyboardButton('⬍⎈FreeDataBase⎈⬍', url='https://t.me/+Y_QdbkhM2OFmNmZl'),
                 InlineKeyboardButton('⬍⎈Movie Grp⎈⬍', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('⎈⬍🔞🥵⬍⎈', url='https://t.me/+xIYS8qn_Nhs2Y2E1')
+                InlineKeyboardButton('⎈⬍🔞🥵⬍⎈', url='https://t.me/+6nFFXikz4ZkxZTQ1')
             ],[
                 InlineKeyboardButton('🧤⬍Update Channel⬍🧤', url=CHNL_LNK)
             ]]
@@ -134,7 +134,7 @@ async def start(client, message):
                 InlineKeyboardButton('⬍⎈FreeDataBase⎈⬍', url='https://t.me/+Y_QdbkhM2OFmNmZl'),
                 InlineKeyboardButton('⬍⎈Movie Grp⎈⬍', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('⎈⬍🔞🥵⬍⎈', url='https://t.me/+xIYS8qn_Nhs2Y2E1')
+                InlineKeyboardButton('⎈⬍🔞🥵⬍⎈', url='https://t.me/+6nFFXikz4ZkxZTQ1')
             ],[
                 InlineKeyboardButton('🧤⬍Update Channel⬍🧤', url=CHNL_LNK)
             ]]
@@ -145,7 +145,7 @@ async def start(client, message):
                 InlineKeyboardButton('⬍⎈FreeDataBase⎈⬍', url='https://t.me/+Y_QdbkhM2OFmNmZl'),
                 InlineKeyboardButton('⬍⎈Movie Grp⎈⬍', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('⎈⬍🔞🥵⬍⎈', url='https://t.me/+xIYS8qn_Nhs2Y2E1')
+                InlineKeyboardButton('⎈⬍🔞🥵⬍⎈', url='https://t.me/+6nFFXikz4ZkxZTQ1')
             ],[
                 InlineKeyboardButton('🧤⬍Update Channel⬍🧤', url=CHNL_LNK)
             ]]
@@ -185,7 +185,7 @@ async def start(client, message):
                 InlineKeyboardButton('⬍⎈FreeDataBase⎈⬍', url='https://t.me/+Y_QdbkhM2OFmNmZl'),
                 InlineKeyboardButton('⬍⎈Movie Grp⎈⬍', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('⎈⬍🔞🥵⬍⎈', url='https://t.me/+xIYS8qn_Nhs2Y2E1')
+                InlineKeyboardButton('⎈⬍🔞🥵⬍⎈', url='https://t.me/+6nFFXikz4ZkxZTQ1')
             ],[
                 InlineKeyboardButton('🧤⬍Update Channel⬍🧤', url=CHNL_LNK)
             ]]
@@ -196,7 +196,7 @@ async def start(client, message):
                 InlineKeyboardButton('⬍⎈FreeDataBase⎈⬍', url='https://t.me/+Y_QdbkhM2OFmNmZl'),
                 InlineKeyboardButton('⬍⎈Movie Grp⎈⬍', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('⎈⬍🔞🥵⬍⎈', url='https://t.me/+xIYS8qn_Nhs2Y2E1')
+                InlineKeyboardButton('⎈⬍🔞🥵⬍⎈', url='https://t.me/+6nFFXikz4ZkxZTQ1')
             ],[
                 InlineKeyboardButton('🧤⬍Update Channel⬍🧤', url=CHNL_LNK)
             ]]
@@ -306,7 +306,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(button)
                 )
                 filesarr.append(msg)
-                k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>💢❗💢IMPORTENT💢❗💢</u></b>\n\n🧤Your Movie Deleting in<b><u>❗💢❗10 mins❗💢❗</u><i></b>Copyright Issues</i>.<b><i>🧤Forward your Movie in ⬍⎈SAVED MSG⎈⬍ Then Download</i></b>")
+                k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>💢❗💢IMPORTENT💢❗💢</u></b>\n\n<blockquote>🧤Your Movie Deleting in<b><u>❗💢❗10 mins❗💢❗</u><i></b>Copyright Issues</i>.<b><i>🧤Forward your Movie in ⬍⎈SAVED MSG⎈⬍ Then Download</i></blockquote></b>")
                 await asyncio.sleep(600)
                 for x in filesarr:
                     await x.delete()
@@ -317,7 +317,7 @@ async def start(client, message):
                 continue
             await asyncio.sleep(1) 
         await sts.delete()
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>💢❗💢IMPORTENT💢❗💢</u></b>\n\n🧤Your Movie Deleting in<b><u>❗💢❗10 mins❗💢❗</u><i></b>Copyright Issues</i>.<b><i>🧤Forward your Movie in ⬍⎈SAVED MSG⎈⬍ Then Download</i></b>")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>💢❗💢IMPORTENT💢❗💢</u></b>\n\n<blockquote>🧤Your Movie Deleting in<b><u>❗💢❗10 mins❗💢❗</u><i></b>Copyright Issues</i>.<b><i>🧤Forward your Movie in ⬍⎈SAVED MSG⎈⬍ Then Download</i></blockquote></b>")
         await asyncio.sleep(600)
         for x in filesarr:
             await x.delete()
@@ -395,7 +395,7 @@ async def start(client, message):
         userid = message.from_user.id if message.from_user else None
         settings = await get_settings(chat_id)
         g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start=allfiles_{file_id}")
-        k = await client.send_message(chat_id=message.from_user.id,text=f"<b>Get All Files in a Single Click!!!\n\n📂 ʟɪɴᴋ ➠ : {g}\n\n<i>Note🧤: This message is deleted in ❗❗5 mins❗❗ to avoid copyrights. Save the link to Somewhere else</i></b>", reply_markup=InlineKeyboardMarkup(
+        k = await client.send_message(chat_id=message.from_user.id,text=f"<b>Get All Files in a Single Click!!!\n\n📂 ʟɪɴᴋ ➠ : {g}\n\n<blockquote><i>Note🧤: This message is deleted in ❗❗5 mins❗❗ to avoid copyrights. Save the link to Somewhere else</i></blockquote></b>", reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton('🧤Download Now🧤', url=g)
@@ -488,7 +488,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(button)
             )
             filesarr.append(msg)
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>💢❗💢IMPORTENT💢❗💢</u></b>\n\n🧤Your Movie Deleting in<b><u>❗💢❗10 mins❗💢❗</u><i></b>Copyright Issues</i>.<b><i>🧤Forward your Movie in ⬍⎈SAVED MSG⎈⬍ Then Download</i></b>")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>💢❗💢IMPORTENT💢❗💢</u></b>\n\n<blockquote>🧤Your Movie Deleting in<b><u>❗💢❗10 mins❗💢❗</u><i></b>Copyright Issues</i>.<b><i>🧤Forward your Movie in ⬍⎈SAVED MSG⎈⬍ Then Download</i></blockquote></b>")
         await asyncio.sleep(600)
         for x in filesarr:
             await x.delete()
@@ -576,7 +576,7 @@ async def start(client, message):
             btn = [[
                 InlineKeyboardButton("⬍⎈🧤Get Files Again🧤⎈⬍", callback_data=f'delfile#{file_id}')
             ]]
-            k = await msg.reply("<b><u>💢❗💢IMPORTENT💢❗💢</u></b>\n\n🧤Your Movie Deleting in<b><u>❗💢❗10 mins❗💢❗</u><i></b>Copyright Issues</i>.<b><i>🧤Forward your Movie in ⬍⎈SAVED MSG⎈⬍ Then Download</i></b>",quote=True)
+            k = await msg.reply("<b><u>💢❗💢IMPORTENT💢❗💢</u></b>\n\n<blockquote>🧤Your Movie Deleting in<b><u>❗💢❗10 mins❗💢❗</u><i></b>Copyright Issues</i>.<b><i>🧤Forward your Movie in ⬍⎈SAVED MSG⎈⬍ Then Download</i></blockquote></b>",quote=True)
             await asyncio.sleep(600)
             await msg.delete()
             await k.edit_text("<b>⬍⎈Your Msg Deleted⎈⬍\n\n🧤If you want Again then Click Again.💢</b>",reply_markup=InlineKeyboardMarkup(btn))
@@ -595,7 +595,7 @@ async def start(client, message):
             logger.exception(e)
             f_caption=f_caption
     if f_caption is None:
-        f_caption = f"@Movie_Pirates_x  {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))}"
+        f_caption = f"@LarvaLinks  {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))}"
     if not await db.has_premium_access(message.from_user.id):
         if not await check_verification(client, message.from_user.id) and VERIFY == True:
             btn = [[
@@ -635,7 +635,7 @@ async def start(client, message):
     btn = [[
         InlineKeyboardButton("⬍⎈Get Files Again⎈⬍", callback_data=f'delfile#{file_id}')
     ]]
-    k = await msg.reply("<b><u>💢❗💢IMPORTENT💢❗💢</u></b>\n\n🧤Your Movie Deleting in<b><u>❗💢❗10 mins❗💢❗</u><i></b>Copyright Issues</i>.<b><i>🧤Forward your Movie in ⬍⎈SAVED MSG⎈⬍ Then Download</i></b>",quote=True)
+    k = await msg.reply("<b><u>💢❗💢IMPORTENT💢❗💢</u></b>\n\n<blockquote>🧤Your Movie Deleting in<b><u>❗💢❗10 mins❗💢❗</u><i></b>Copyright Issues</i>.<b><i>🧤Forward your Movie in ⬍⎈SAVED MSG⎈⬍ Then Download</i></blockquote></b>",quote=True)
     await asyncio.sleep(600)
     await msg.delete()
     await k.edit_text("<b>⬍⎈Your Msg Deleted⎈⬍\n\n🧤Get Files Again🧤</b>",reply_markup=InlineKeyboardMarkup(btn))
@@ -1211,7 +1211,7 @@ async def shortlink(bot, message):
         return await message.reply(f"You are anonymous admin. Turn off anonymous admin and try again this command")
     chat_type = message.chat.type
     if chat_type == enums.ChatType.PRIVATE:
-        return await message.reply_text(f"<b>Hey {message.from_user.mention}, This command only works on groups !\n\n<u>Follow These Steps to Connect Shortener:</u>\n\n1. Add Me in Your Group with Full Admin Rights\n\n2. After Adding in Grp, Set your Shortener\n\nSend this command in your group\n\n—> /shortlink ""{your_shortener_website_name} {your_shortener_api}\n\n#Sample:-\n/shortlink kpslink.in CAACAgUAAxkBAAEJ4GtkyPgEzpIUC_DSmirN6eFWp4KInAACsQoAAoHSSFYub2D15dGHfy8E\n\nThat's it!!! Enjoy Earning Money 💲\n\n[[[ Trusted Earning Site - https://kpslink.in]]]\n\nIf you have any Doubts, Feel Free to Ask me - @kingvj01\n\n(Puriyala na intha contact la message pannunga - @kngvj01)</b>")
+        return await message.reply_text(f"<b>Hey {message.from_user.mention}, This command only works on groups !\n\n<u>Follow These Steps to Connect Shortener:</u>\n\n1. Add Me in Your Group with Full Admin Rights\n\n2. After Adding in Grp, Set your Shortener\n\nSend this command in your group\n\n—> /shortlink ""{your_shortener_website_name} {your_shortener_api}\n\n#Sample:-\n/shortlink kpslink.in CAACAgUAAxkBAAEJ4GtkyPgEzpIUC_DSmirN6eFWp4ACsQoAAoHSSFYub2D15dGHfy8E\n\nThat's it!!! Enjoy Earning Money 💲\n\n[[[ Trusted Earning Site - https://kpslink.in]]]\n\nIf you have any Doubts, Feel Free to Ask me - @LordYashasvi\n\n(Puriyala na intha contact la message pannunga - @LordYashasvi)</b>")
     elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         grpid = message.chat.id
         title = message.chat.title
@@ -1227,7 +1227,7 @@ async def shortlink(bot, message):
     try:
         command, shortlink_url, api = data.split(" ")
     except:
-        return await message.reply_text("<b>Command Incomplete :(\n\nGive me a shortener website link and api along with the command !\n\nFormat: <code>/shortlink kpslink.in e3d82cdf8f9f4783c425d1c271fb1c4500</code></b>")
+        return await message.reply_text("<b>Command Incomplete :(\n\nGive me a shortener website link and api along with the command !\n\nFormat: <code>/shortlink kpslink.in e3d82cdf8f9f4783c41c271fb1c4500</code></b>")
     reply = await message.reply_text("<b>Please Wait...</b>")
     shortlink_url = re.sub(r"https?://?", "", shortlink_url)
     shortlink_url = re.sub(r"[:/]", "", shortlink_url)
@@ -1367,7 +1367,7 @@ async def removetutorial(bot, message):
 async def stop_button(bot, message):
     msg = await bot.send_message(text="**💢⬍⎈Starting Refreshing🏝⎈⬍**", chat_id=message.chat.id)       
     await asyncio.sleep(3)
-    await msg.edit("**♻🎃⬍⎈i am Refreshed Now🎃♻⎈⬍**")
+    await msg.edit("**⬍⎈♻🎃i am Refreshed Now🎃♻⎈⬍**")
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 @Client.on_message(filters.command("nofsub"))
